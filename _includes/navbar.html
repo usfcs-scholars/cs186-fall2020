@@ -1,0 +1,75 @@
+<!-- navigation -->
+<nav class="navbar is-light" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+        <img src="https://scholars.cs.usfca.edu/images/favicon.png" height="28" alt="USF Logo">
+        &nbsp;
+        <span class="has-text-weight-bold">
+          <span class="has-text-usf-green">CE</span><span class="has-text-usf-gold">CS</span>
+        </span>
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="main-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="main-menu" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item{% if page.title == "Schedule" %} is-active{% endif %}" href="schedule.html">
+          <span class="icon">
+            <i class="far fa-calendar-alt"></i>
+          </span>
+          <span>Schedule</span>
+        </a>
+
+        <a class="navbar-item{% if page.title == "Syllabus" %} is-active{% endif %}" href="syllabus.html">
+          <span class="icon">
+            <i class="far fa-book-alt"></i>
+          </span>
+          <span>Syllabus</span>
+        </a>
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item" href="{{ site.piazza }}" disabled>
+          <span class="icon">
+            <i class="far fa-comments"></i>
+          </span>
+          <span>Piazza</span>
+        </a>
+
+        <a class="navbar-item" href="{{ site.canvas }}">
+          <span class="icon">
+            <i class="far fa-school"></i>
+          </span>
+          <span>Canvas</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- end navigation -->
+
+<!-- mobile menu responsiveness -->
+<!-- https://bulma.io/documentation/components/navbar/ -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  if ($navbarBurgers.length > 0) {
+    $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+      });
+    });
+  }
+});
+</script>
+<!-- end mobile menu responsiveness -->
