@@ -1,0 +1,51 @@
+# reusable icon references
+icons:
+  website: &icon_website
+    label: Website
+    class: far fa-link
+  video: &icon_video
+    label: Video
+    class: far fa-video
+  presentation: &icon_presentation
+    label: Presentation
+    class: far fa-presentation
+  speaker: &icon_speaker
+    label: Guest Speaker
+    class: far fa-podium-star
+  participation: &icon_participation
+    label: Participation
+    class: far fa-users-class
+  survey: &icon_survey
+    label: Survey
+    class: far fa-clipboard-list-check
+  date: &icon_date
+    label: Date
+    class: far fa-calendar-alt
+
+# icons that don't need a legend
+icons_special:
+  warning: &icon_warning
+    label: Warning
+    class: fas fa-exclamation-triangle
+  pending: &icon_pending
+    label: Pending
+    class: far fa-question-square
+  canceled: &icon_canceled
+    label: Canceled
+    class: far fa-calendar-times
+  travel: &icon_travel
+    label: Travel
+    class: far fa-plane-departure
+  alumni: &icon_alumni
+    label: Alumni
+    class: far fa-user-graduate
+
+weeks:
+- week: 1
+  columns:
+    - label: 'Dates and Deadlines'
+      items:
+        - icon: *icon_date
+          date: 2020-08-18
+          text: 'Fall Semester Begins'
+          type: 'has-text-grey'
