@@ -75,9 +75,7 @@ title: Welcome
 
 {{ site.description }}
 
-<!-- Classes are **Mondays** from **4:45pm&ndash;6:20pm** in LS G12, and are often open to non-enrolled students. -->
-
-The class schedule is pending. See the [Schedule](schedule.html) and [Syllabus](syllabus.html) for more information.
+Classes are **Fridays** from **1:00pm&ndash;2:45pm** in LS 307, and are often open to non-enrolled students. See the [Schedule](schedule.html) and [Syllabus](syllabus.html) for more information.
 
 <div class="notification is-usf-gold">
   <button class="delete"></button>

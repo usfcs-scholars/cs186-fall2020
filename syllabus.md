@@ -23,15 +23,15 @@ This course meets once a week as follows:
       <br>
 
       <i class="fa-fw fas fa-calendar-alt"></i>
-      <span>Pending</span>
+      <span>Fridays</span>
       <br>
 
       <i class="fa-fw fas fa-clock"></i>
-      <span>Pending</span>
+      <span>1:00pm &ndash; 2:45pm</span>
       <br>
 
       <i class="fa-fw fas fa-map-marker-alt"></i>
-      Pending
+      <a href="https://www.usfca.edu/campus-buildings-services/main-campus/lo-schiavo">Lo Schiavo Science</a>, Room 307
     </div>
   </div>
 </div>
