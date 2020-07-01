@@ -77,6 +77,11 @@ title: Welcome
 
 Classes are **Fridays** from **1:00pm&ndash;2:45pm** in LS 307, and are often open to non-enrolled students. See the [Schedule](schedule.html) and [Syllabus](syllabus.html) for more information.
 
+<div class="notification is-danger">
+  <button class="delete"></button>
+  <p>For Fall 2020, this class will be taught using <a href="https://myusf.usfca.edu/keep-teaching/learning-fall-2020"><strong>hybrid instruction</strong></a>. This involves a mix of synchronous in-person and remote learning. A rotating subset of students will be allowed in the classroom to enable social distancing; other students will be asked to join remotely. Any student uncomfortable or unable to attend class in-person will always be able to attend remotely instead. </p>
+</div>
+
 <div class="notification is-usf-gold">
   <button class="delete"></button>
   <p><strong>Interested in registering?</strong> You must be a first-time first-year incoming CS major to register. If that applies, please contact <a href="https://sjengle.cs.usfca.edu">Professor Sophie Engle</a> at <a href="mailto:sjengle@cs.usfca.edu">sjengle@cs.usfca.edu</a> for instructions on how to register.</p>
