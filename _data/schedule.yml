@@ -39,6 +39,9 @@ icons_special:
   alumni: &icon_alumni
     label: Alumni
     class: far fa-user-graduate
+  nothing: &icon_nothing
+    label: Nothing
+    class: ''
 
 weeks:
 - week: 1
@@ -64,7 +67,8 @@ weeks:
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 2
   date: 2020-08-23
@@ -78,22 +82,26 @@ weeks:
 
     - label: 'Fri 08/28 Lecture'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 3
   date: 2020-08-30
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Fri 09/04 Lecture'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
         - text: 'Drop Deadline'
           icon: *icon_date
@@ -103,59 +111,70 @@ weeks:
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 4
   date: 2020-09-06
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Fri 09/11 Lecture'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 5
   date: 2020-09-13
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Fri 09/18 Lecture'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 6
   date: 2020-09-20
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Fri 09/25 Lecture'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 7
   date: 2020-09-27
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Fri 10/02 Lecture'
       items:
@@ -164,29 +183,34 @@ weeks:
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 8
   date: 2020-10-04
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Fri 10/09 Lecture'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 9
   date: 2020-10-11
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Fri 10/16 Lecture'
       items:
@@ -195,29 +219,34 @@ weeks:
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 10
   date: 2020-10-18
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Fri 10/23 Lecture'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 11
   date: 2020-10-25
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Fri 10/30 Lecture'
       items:
@@ -232,14 +261,16 @@ weeks:
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 12
   date: 2020-11-01
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Fri 11/06 Lecture'
       items:
@@ -247,7 +278,8 @@ weeks:
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 13
   date: 2020-11-08
@@ -267,22 +299,26 @@ weeks:
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 14
   date: 2020-11-15
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Fri 11/20 Lecture'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
     - label: 'Post-Lecture Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
 
 - week: 15
   date: 2020-11-22
@@ -312,4 +348,5 @@ weeks:
 
     - label: 'End of Semester Deadlines'
       items:
-        - text: 'Pending'
+        - text: ''
+          icon: *icon_nothing
