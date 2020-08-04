@@ -42,10 +42,274 @@ icons_special:
 
 weeks:
 - week: 1
+  date: 2020-08-16
   columns:
-    - label: 'Dates and Deadlines'
+    - label: 'Pre-Lecture Deadlines'
       items:
         - icon: *icon_date
           date: 2020-08-18
           text: 'Fall Semester Begins'
           type: 'has-text-grey'
+
+    - label: 'Fri 08/21 Lecture'
+      items:
+        - text: 'Course Syllabus'
+          icon: *icon_website
+          link: 'https://docs.google.com/document/d/1ZyVKA4n3_IrXNYjFBwp2Xpp4C1dkY-9tg2azWxKoXtc/edit?usp=sharing'
+
+        - text: 'Introductions'
+          icon: *icon_participation
+
+
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 2
+  date: 2020-08-23
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Add Deadline'
+          icon: *icon_date
+          date: 2020-08-24
+          type: 'has-text-grey'
+
+    - label: 'Fri 08/28 Lecture'
+      items:
+        - text: 'Pending'
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 3
+  date: 2020-08-30
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+    - label: 'Fri 09/04 Lecture'
+      items:
+        - text: 'Pending'
+
+        - text: 'Drop Deadline'
+          icon: *icon_date
+          date: 2020-09-04
+          type: 'has-text-grey'
+          bump: true
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 4
+  date: 2020-09-06
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+    - label: 'Fri 09/11 Lecture'
+      items:
+        - text: 'Pending'
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 5
+  date: 2020-09-13
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+    - label: 'Fri 09/18 Lecture'
+      items:
+        - text: 'Pending'
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 6
+  date: 2020-09-20
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+    - label: 'Fri 09/25 Lecture'
+      items:
+        - text: 'Pending'
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 7
+  date: 2020-09-27
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+    - label: 'Fri 10/02 Lecture'
+      items:
+        - text: 'Presentations (Tenative)'
+          icon: *icon_presentation
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 8
+  date: 2020-10-04
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+    - label: 'Fri 10/09 Lecture'
+      items:
+        - text: 'Pending'
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 9
+  date: 2020-10-11
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+    - label: 'Fri 10/16 Lecture'
+      items:
+        - text: 'Presentations (Tenative)'
+          icon: *icon_presentation
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 10
+  date: 2020-10-18
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+    - label: 'Fri 10/23 Lecture'
+      items:
+        - text: 'Pending'
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 11
+  date: 2020-10-25
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+    - label: 'Fri 10/30 Lecture'
+      items:
+        - text: 'Presentations (Tenative)'
+          icon: *icon_presentation
+
+        - text: 'Withdraw Deadline'
+          date: 2020-10-30
+          icon: *icon_date
+          type: 'has-text-grey'
+          bump: true
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 12
+  date: 2020-11-01
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+    - label: 'Fri 11/06 Lecture'
+      items:
+        - text: 'CS Advising (Tenative)'
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 13
+  date: 2020-11-08
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Spring Registration Begins'
+          link: 'https://myusf.usfca.edu/registration/fall-registration-calendar'
+          icon: *icon_date
+          date: 2020-11-09
+          type: 'has-text-grey'
+
+    - label: 'Fri 11/13 Lecture'
+      items:
+        - text: 'Presentations (Tenative)'
+          icon: *icon_presentation
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 14
+  date: 2020-11-15
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+    - label: 'Fri 11/20 Lecture'
+      items:
+        - text: 'Pending'
+
+    - label: 'Post-Lecture Deadlines'
+      items:
+        - text: 'Pending'
+
+- week: 15
+  date: 2020-11-22
+  columns:
+    - label: 'Fri 11/27 Lecture'
+      class: 'is-offset-one-third'
+      items:
+        - text: 'No Class (Thanksgiving Break)'
+          icon: *icon_canceled
+          type: 'has-text-grey'
+
+- week: 16
+  date: 2020-11-29
+  columns:
+    - label: 'Pre-Lecture Deadlines'
+      items:
+        - text: 'CS Night (Required)'
+          icon: *icon_date
+          type: 'has-text-weight-bold has-text-danger'
+          date: 2020-12-03
+
+    - label: 'Fri 12/04 Lecture'
+      items:
+        - text: 'No Class (End of Semester)'
+          icon: *icon_canceled
+          type: 'has-text-grey'
+
+    - label: 'End of Semester Deadlines'
+      items:
+        - text: 'Pending'

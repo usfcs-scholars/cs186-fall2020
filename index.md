@@ -95,27 +95,26 @@ Classes are livestreamed on **Fridays** from **1:00pm&ndash;2:45pm** via [Zoom](
 
 {%- assign today_date = 'now' | date: '%Y-%m-%d' -%}
 {%- assign today = today_date | date: '%s'| abs -%}
-{%- assign beg_date = '2020-01-21' | date: '%s' | abs -%}
+{%- assign beg_date = '2020-08-18' | date: '%s' | abs -%}
 {%- assign beg_index = 0 -%}
 
 {%- if today > beg_date -%}
-  {%- assign end_index = site.data.schedule.weeks | size | minus: 2 -%}
+  {%- assign end_index = site.data.schedule.weeks | size | minus: 1 -%}
 
   {%- for week in site.data.schedule.weeks limit:end_index -%}
-    {%- assign first_section = week.columns | first -%}
-    {%- assign first_day = first_section.sections | first -%}
-
-    {%- if first_day.start -%}
-      {%- assign as_seconds = first_day.start | date: '%s' | abs -%}
+    {%- if week.date -%}
+      {%- assign as_seconds = week.date | date: '%s' | abs -%}
       {%- if as_seconds > today -%}
         {%- break -%}
       {%- endif -%}
     {%- endif -%}
     {%- assign beg_index = forloop.index0 -%}
   {%- endfor -%}
+
+  {%- assign beg_index = beg_index | minus: 1 -%}
 {%- endif -%}
 
-{% for week in site.data.schedule.weeks offset:beg_index limit:2 %}
+{% for week in site.data.schedule.weeks offset:beg_index limit:3 %}
 {% include week.html week = week %}
 {% endfor %}
 
