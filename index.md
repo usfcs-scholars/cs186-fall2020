@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: schedule
 title: Welcome
 ---
 
+{% comment %}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
 
 <style>
@@ -72,19 +73,15 @@ title: Welcome
     </div>
   </div>  
 </div>
+{% endcomment %}
 
 {{ site.description }}
 
-Classes are **Fridays** from **1:00pm&ndash;2:45pm** in LS 307, and are often open to non-enrolled students. See the [Schedule](schedule.html) and [Syllabus](syllabus.html) for more information.
+Classes are livestreamed on **Fridays** from **1:00pm&ndash;2:45pm** via [Zoom]({{ site.zoom }}).
 
 <div class="notification is-danger">
   <button class="delete"></button>
-  <p>For Fall 2020, this class will be taught using <a href="https://myusf.usfca.edu/keep-teaching/learning-fall-2020"><strong>hybrid instruction</strong></a>. This involves a mix of synchronous in-person and remote learning. A rotating subset of students will be allowed in the classroom to enable social distancing; other students will be asked to join remotely. Any student uncomfortable or unable to attend class in-person will always be able to attend remotely instead. </p>
-</div>
-
-<div class="notification is-usf-gold">
-  <button class="delete"></button>
-  <p><strong>Interested in registering?</strong> You must be a first-time first-year incoming CS major to register. If that applies, please contact <a href="https://sjengle.cs.usfca.edu">Professor Sophie Engle</a> at <a href="mailto:sjengle@cs.usfca.edu">sjengle@cs.usfca.edu</a> for instructions on how to register.</p>
+  <p>All instruction for Fall 2020 will be conducted remotely via Zoom. See the <a href="https://myusf.usfca.edu/covid">USF United</a> page for more resources related to the ongoing COVID-19 pandemic.</p>
 </div>
 
 <div class="notification is-usf-green">
@@ -93,6 +90,35 @@ Classes are **Fridays** from **1:00pm&ndash;2:45pm** in LS 307, and are often op
 
   <p><strong>All participants are requested to participate in the project evaluation.</strong> These surveys are to evaluate our program (the course) and not you (the student), and will not impact your grades in any way. See the <a href="syllabus.html#evaluation">Syllabus</a> for details.</p>
 </div>
+
+## Upcoming Schedule
+
+{%- assign today_date = 'now' | date: '%Y-%m-%d' -%}
+{%- assign today = today_date | date: '%s'| abs -%}
+{%- assign beg_date = '2020-01-21' | date: '%s' | abs -%}
+{%- assign beg_index = 0 -%}
+
+{%- if today > beg_date -%}
+  {%- assign end_index = site.data.schedule.weeks | size | minus: 2 -%}
+
+  {%- for week in site.data.schedule.weeks limit:end_index -%}
+    {%- assign first_section = week.columns | first -%}
+    {%- assign first_day = first_section.sections | first -%}
+
+    {%- if first_day.start -%}
+      {%- assign as_seconds = first_day.start | date: '%s' | abs -%}
+      {%- if as_seconds > today -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endif -%}
+    {%- assign beg_index = forloop.index0 -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{% for week in site.data.schedule.weeks offset:beg_index limit:2 %}
+{% include week.html week = week %}
+{% endfor %}
+
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
@@ -105,6 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
+{% comment %}
 <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
 <script>
 bulmaCarousel.attach('#field-trips', {
@@ -116,3 +143,4 @@ bulmaCarousel.attach('#field-trips', {
   pauseOnHover: true
 });
 </script>
+{% endcomment %}

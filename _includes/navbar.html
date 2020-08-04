@@ -26,12 +26,63 @@
           <span>Schedule</span>
         </a>
 
-        <a class="navbar-item{% if page.title == "Syllabus" %} is-active{% endif %}" href="syllabus.html">
-          <span class="icon">
-            <i class="far fa-book-alt"></i>
-          </span>
-          <span>Syllabus</span>
-        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            <span class="icon">
+              <i class="far fa-link"></i>
+            </span>
+            <span>Quick Links</span>
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item" target="_blank" href="https://docs.google.com/document/d/1ZyVKA4n3_IrXNYjFBwp2Xpp4C1dkY-9tg2azWxKoXtc/edit?usp=sharing">
+              <span class="icon">
+                <i class="far fa-book-alt"></i>
+              </span>
+              <span>Syllabus</span>
+            </a>
+
+            <hr class="navbar-divider">
+
+            <a class="navbar-item" target="_blank" href="{{ site.canvas }}">
+              <span class="icon">
+                <i class="far fa-school"></i>
+              </span>
+              <span>Canvas</span>
+            </a>
+
+            <a class="navbar-item" target="_blank" href="{{ site.github }}">
+              <span class="icon">
+                <i class="fab fa-github-alt"></i>
+              </span>
+              <span>Github</span>
+            </a>
+
+            <a class="navbar-item" target="_blank" href="{{ site.piazza }}">
+              <span class="icon">
+                <i class="far fa-comments"></i>
+              </span>
+              <span>Piazza</span>
+            </a>
+
+            <hr class="navbar-divider">
+
+            <a class="navbar-item" target="_blank" href="https://pollev.com/sjengle">
+              <span class="icon">
+                <i class="far fa-poll-people"></i>
+              </span>
+              <span>Live Polls</span>
+            </a>
+
+
+            <a class="navbar-item" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScBxxXbE2K-OTD6eKxz_LHcVKzFQ6RuyqVScjTqx5FRJu8tcg/viewform?usp=sf_link">
+              <span class="icon">
+                <i class="far fa-box-ballot"></i>
+              </span>
+              <span>Suggestion Box</span>
+            </a>
+          </div>
+        </div>
       </div>
 
       <div class="navbar-end">
@@ -42,11 +93,11 @@
           <span>Piazza</span>
         </a>
 
-        <a class="navbar-item" href="{{ site.canvas }}">
+        <a class="navbar-item" href="{{ site.zoom }}">
           <span class="icon">
-            <i class="far fa-school"></i>
+            <i class="far fa-signal-stream"></i>
           </span>
-          <span>Canvas</span>
+          <span>Livestream</span>
         </a>
       </div>
     </div>

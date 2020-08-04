@@ -9,7 +9,7 @@ Want to share your expertise and experiences with an extremely diverse set of be
 
 Attendance is mandatory for our (up to 15) registered students.
 
-The registered students are incoming first-year CS majors. The overwhelming majority of these students are from underrepresented backgrounds (race, ethnicity, gender, and economic status). Some students may not yet have prior experience in CS.
+The registered students are incoming first-year CS majors. The majority of these students are from underrepresented backgrounds (race, ethnicity, gender, and economic status). Some students may not yet have prior experience in CS.
 
 We can also invite 15 to 75 non-registered CS students to participate if you want to interact with a broader audience.
 
@@ -36,7 +36,7 @@ Virtual events will be conducted using the free [Zoom](https://usfca.zoom.us/) v
 
 {% include anchor.html h="h3" text="Timing" icon="far fa-calendar-alt" %}
 
-We are able to arrange for events that range anywhere between **20 minutes to 90 minutes** in length. However, events must occur within the class time during the semester start and end dates.
+We are able to arrange for events that range anywhere between **30 minutes to 90 minutes** in length. However, events must occur within the class time during the semester start and end dates.
 
 {% include anchor.html h="h3" text="Advertising" icon="far fa-bullhorn"%}
 
@@ -48,7 +48,7 @@ For events open to non-registered students, we can announce the event on our CS 
 
 {% include anchor.html h="h3" text="Benefits" icon="far fa-box-heart" %}
 
-Beyond the intangible benefits associated with this type of service, speakers will receive a formal thank you letter. We can also provide free on-campus parking and a small honorarium through [our grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1833718) to offset other local travel expenses.
+Beyond the intangible benefits associated with this type of service, speakers will receive a formal thank you letter. ~~We can also provide free on-campus parking and a small honorarium through [our grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1833718) to offset other local travel expenses.~~
 
 {% include anchor.html h="h3" text="About USFCS" icon="far fa-info-circle" %}
 

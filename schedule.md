@@ -1,39 +1,7 @@
 ---
-layout: default
+layout: schedule
 title: Schedule
 ---
-
-<style>
-ul.icons {
-  list-style-type: none;
-  margin-left: 1.5em;
-  margin-top: 0em;
-}
-
-ul.icons > li {
-  position: relative;
-}
-
-ul.icons > li > i {
-  width: 1.25em;
-  left: -1.5em;
-  position: absolute;
-  text-align: center;
-  line-height: inherit;
-}
-
-.content li.bump {
-  margin-top: 0.8rem;
-}
-
-strong {
-  color: inherit;
-}
-
-[class^=has-text] a {
-  color: inherit;
-}
-</style>
 
 The following is the current weekly schedule. This schedule is subject to change and will be frequently updated throughout the semester. The latest deadlines may also be found on [Canvas]({{ site.canvas }}).
 
@@ -53,6 +21,9 @@ The following is the current weekly schedule. This schedule is subject to change
 
 <!-- schedule -->
 {% for week in site.data.schedule.weeks %}
+{% include week.html week = week %}
+
+{% comment %}
 <div class="columns">
   <div class="column is-narrow">
     <div class="heading" id="week-{{ week.week }}{{ week.text | slugify }}">
@@ -103,7 +74,7 @@ The following is the current weekly schedule. This schedule is subject to change
 
 </div>
 {% unless forloop.last %}<hr>{% endunless %}
-
+{% endcomment %}
 <!-- end week row -->
 
 {% endfor %}
