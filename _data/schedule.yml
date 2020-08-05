@@ -21,6 +21,9 @@ icons:
   date: &icon_date
     label: Date
     class: far fa-calendar-alt
+  guide: &icon_guide
+    label: Guide
+    class: far fa-atlas
 
 # icons that don't need a legend
 icons_special:
@@ -54,16 +57,26 @@ weeks:
           text: 'Fall Semester Begins'
           type: 'has-text-grey'
 
+        - icon: *icon_guide
+          text: 'Getting Started Guide'
+          link: 'https://docs.google.com/document/d/1v8ydzhhYzPiYcDz34K9WZLKWncjT95BrIhSsF21r8Gw/edit?usp=sharing'
+          bump: true
+          type: 'has-text-weight-bold has-text-info'
+
+        - icon: *icon_website
+          text: 'Remote Learning Resources'
+          link: 'https://myusf.usfca.edu/covid/remote/students'
+          type: 'has-text-weight-bold has-text-info'
+
     - label: 'Fri 08/21 Lecture'
       items:
+
         - text: 'Course Syllabus'
           icon: *icon_website
           link: 'https://docs.google.com/document/d/1ZyVKA4n3_IrXNYjFBwp2Xpp4C1dkY-9tg2azWxKoXtc/edit?usp=sharing'
 
         - text: 'Introductions'
           icon: *icon_participation
-
-
 
     - label: 'Post-Lecture Deadlines'
       items:

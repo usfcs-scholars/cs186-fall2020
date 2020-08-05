@@ -75,21 +75,16 @@ title: Welcome
 </div>
 {% endcomment %}
 
-{{ site.description }}
-
-Classes are livestreamed on **Fridays** from **1:00pm&ndash;2:45pm** via [Zoom]({{ site.zoom }}).
-
 <div class="notification is-danger">
   <button class="delete"></button>
   <p>All instruction for Fall 2020 will be conducted remotely via Zoom. See the <a href="https://myusf.usfca.edu/covid">USF United</a> page for more resources related to the ongoing COVID-19 pandemic.</p>
 </div>
 
-<div class="notification is-usf-green">
-  <button class="delete"></button>
-  <p>This course is funded by under <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1833718">NSF Grant No. 1833718</a>. As part of grant expectations, an external evaluation of project usefulness and impact will be conducted by <a href="http://smartstart-er.com/">SmartStart Evaluation and Research</a>. They will contact you to participate in one or more surveys.</p>
+{{ site.description }}
 
-  <p><strong>All participants are requested to participate in the project evaluation.</strong> These surveys are to evaluate our program (the course) and not you (the student), and will not impact your grades in any way. See the <a href="syllabus.html#evaluation">Syllabus</a> for details.</p>
-</div>
+Classes are livestreamed on **Fridays** from **1:00pm&ndash;2:45pm** via [Zoom]({{ site.zoom }}).
+
+[Getting Started Guide](https://docs.google.com/document/d/1v8ydzhhYzPiYcDz34K9WZLKWncjT95BrIhSsF21r8Gw/edit?usp=sharing){: .button .is-primary } &nbsp; [Join Livestream]({{ site.zoom }}){: .button .is-primary}
 
 ## Upcoming Schedule
 
