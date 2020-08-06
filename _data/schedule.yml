@@ -3,6 +3,9 @@ icons:
   website: &icon_website
     label: Website
     class: far fa-link
+  guide: &icon_guide
+    label: Guide
+    class: far fa-atlas
   video: &icon_video
     label: Video
     class: far fa-video
@@ -12,18 +15,19 @@ icons:
   speaker: &icon_speaker
     label: Guest Speaker
     class: far fa-podium-star
+  workshop: &icon_workshop
+    label: Workshop
+    class: far fa-users-class
   participation: &icon_participation
     label: Participation
-    class: far fa-users-class
+    class: far fa-poll-people
   survey: &icon_survey
     label: Survey
-    class: far fa-clipboard-list-check
+    class: far fa-ballot-check
   date: &icon_date
     label: Date
     class: far fa-calendar-alt
-  guide: &icon_guide
-    label: Guide
-    class: far fa-atlas
+
 
 # icons that don't need a legend
 icons_special:
@@ -325,8 +329,19 @@ weeks:
 
     - label: 'Fri 11/20 Lecture'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: '<strong>Preparing for Finals</strong><br><em>Workshop by <a href="https://myusf.usfca.edu/learning-center">The Learning Center</a></em>'
+          icon: *icon_workshop
+
+        - text: "What's Next"
+          bump: true
+          type: 'has-text-grey'
+
+        - text: 'Grant Evaluation'
+          bump: true
+          type: 'has-text-grey'
+
+        - text: 'Course Evaluation'
+          type: 'has-text-grey'
 
     - label: 'Post-Lecture Deadlines'
       items:
