@@ -15,6 +15,9 @@ icons:
   speaker: &icon_speaker
     label: Guest Speaker
     class: far fa-podium-star
+  panel: &icon_panel
+    label: Panel
+    class: far fa-users
   workshop: &icon_workshop
     label: Workshop
     class: far fa-users-class
@@ -99,7 +102,10 @@ weeks:
 
     - label: 'Fri 08/28 Lecture'
       items:
-        - text: ''
+        - text: '<strong><a href="https://myusf.usfca.edu/career-services/get-linkedin">Linkedin Workshop</a></strong>'
+          icon: *icon_workshop
+
+        - text: '<a href="https://myusf.usfca.edu/career-services/meet-staff">Juli-Anne Brockway</a>, <em>Career Counselor, Career Services Center</em>'
           icon: *icon_nothing
 
     - label: 'Post-Lecture Deadlines'
@@ -117,7 +123,16 @@ weeks:
 
     - label: 'Fri 09/04 Lecture'
       items:
-        - text: ''
+        - text: 'Pending'
+
+        - text: '<strong>Current Student Panel</strong>'
+          bump: true
+          icon: *icon_panel
+
+        - text: '<a href="https://www.linkedin.com/in/jose-eduardo-corella-carranza-b33804102/">Jose Corella</a>, <em>USF BSCS Class of 2021 (Expected)</em>'
+          icon: *icon_nothing
+
+        - text: '<a href="https://www.linkedin.com/in/jose-eduardo-corella-carranza-b33804102/">Evelyn Matson</a>, <em>USF BSCS Class of 2021 (Expected)</em>'
           icon: *icon_nothing
 
         - text: 'Drop Deadline'
@@ -329,8 +344,13 @@ weeks:
 
     - label: 'Fri 11/20 Lecture'
       items:
-        - text: '<strong>Preparing for Finals</strong><br><em>Workshop by <a href="https://myusf.usfca.edu/learning-center">The Learning Center</a></em>'
+        - text: 'Preparing for Finals'
           icon: *icon_workshop
+          type: 'strong'
+          link: 'https://myusf.usfca.edu/learning-center'
+
+        - text: '<em>Workshop by <a href="https://myusf.usfca.edu/learning-center">The Learning Center</a></em>'
+          icon: *icon_nothing
 
         - text: "What's Next"
           bump: true
