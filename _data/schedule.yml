@@ -22,10 +22,10 @@ icons:
     label: Workshop
     class: far fa-users-class
   participation: &icon_participation
-    label: Participation
+    label: Live Participation
     class: far fa-poll-people
-  survey: &icon_survey
-    label: Survey
+  assignment: &icon_assignment
+    label: Assignment
     class: far fa-ballot-check
   date: &icon_date
     label: Date
@@ -52,6 +52,9 @@ icons_special:
   nothing: &icon_nothing
     label: Nothing
     class: ''
+  break: &icon_break
+    label: Break
+    class: far fa-mug-hot
 
 weeks:
 - week: 1
@@ -78,17 +81,31 @@ weeks:
     - label: 'Fri 08/21 Lecture'
       items:
 
+        - text: 'Ask Me (Almost) Anything'
+          icon: *icon_participation
+          link: 'https://docs.google.com/presentation/d/e/2PACX-1vQACjLOP5oB4I1FtbVqV6VKZptouAx_3zw3y-JL3AKzlymEFPS1qEqDcMsQPenrZbfGTP4N4VlZh8cK/pub?start=false&loop=false&delayms=3000&slide=id.g5e1d929e1d_0_454'
+
         - text: 'Course Syllabus'
           icon: *icon_website
           link: 'https://docs.google.com/document/d/1ZyVKA4n3_IrXNYjFBwp2Xpp4C1dkY-9tg2azWxKoXtc/edit?usp=sharing'
 
+        - text: 'Interactive Break'
+          icon:  *icon_break
+          link: 'https://docs.google.com/presentation/d/e/2PACX-1vQACjLOP5oB4I1FtbVqV6VKZptouAx_3zw3y-JL3AKzlymEFPS1qEqDcMsQPenrZbfGTP4N4VlZh8cK/pub?start=false&loop=false&delayms=3000&slide=id.g8f69a9c8a7_3_9'
+          bump: true
+
         - text: 'Introductions'
           icon: *icon_participation
+          link: 'https://docs.google.com/presentation/d/e/2PACX-1vQACjLOP5oB4I1FtbVqV6VKZptouAx_3zw3y-JL3AKzlymEFPS1qEqDcMsQPenrZbfGTP4N4VlZh8cK/pub?start=false&loop=false&delayms=3000&slide=id.g8f69a9c8a7_3_18'
+          bump: true
 
-    - label: 'Post-Lecture Deadlines'
+    - label: 'Assignments'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Piazza Setup'
+          icon: *icon_assignment
+
+        - text: 'Photo Submission'
+          icon: *icon_assignment
 
 - week: 2
   date: 2020-08-23
@@ -108,7 +125,7 @@ weeks:
         - text: '<a href="https://myusf.usfca.edu/career-services/meet-staff">Juli-Anne Brockway</a>, <em>Career Counselor, Career Services Center</em>'
           icon: *icon_nothing
 
-    - label: 'Post-Lecture Deadlines'
+    - label: 'Assignments'
       items:
         - text: ''
           icon: *icon_nothing
@@ -141,7 +158,7 @@ weeks:
           type: 'has-text-grey'
           bump: true
 
-    - label: 'Post-Lecture Deadlines'
+    - label: 'Assignments'
       items:
         - text: ''
           icon: *icon_nothing
@@ -151,15 +168,17 @@ weeks:
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Presentation Date'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6972922'
+          date: 2020-09-10
 
     - label: 'Fri 09/11 Lecture'
       items:
         - text: ''
           icon: *icon_nothing
 
-    - label: 'Post-Lecture Deadlines'
+    - label: 'Assignments'
       items:
         - text: ''
           icon: *icon_nothing
@@ -169,15 +188,17 @@ weeks:
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Presentation Topic'
+          icon: *icon_assignment
+          date: 2020-09-17
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6980278'
 
     - label: 'Fri 09/18 Lecture'
       items:
         - text: ''
           icon: *icon_nothing
 
-    - label: 'Post-Lecture Deadlines'
+    - label: 'Assignments'
       items:
         - text: ''
           icon: *icon_nothing
@@ -195,7 +216,7 @@ weeks:
         - text: ''
           icon: *icon_nothing
 
-    - label: 'Post-Lecture Deadlines'
+    - label: 'Assignments'
       items:
         - text: ''
           icon: *icon_nothing
@@ -205,15 +226,17 @@ weeks:
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Presentation Draft'
+          icon: *icon_assignment
+          date: 2020-10-01
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6972924'
 
     - label: 'Fri 10/02 Lecture'
       items:
-        - text: 'Presentations (Tenative)'
-          icon: *icon_presentation
+        - text: ''
+          icon: *icon_nothing
 
-    - label: 'Post-Lecture Deadlines'
+    - label: 'Assignments'
       items:
         - text: ''
           icon: *icon_nothing
@@ -231,7 +254,7 @@ weeks:
         - text: ''
           icon: *icon_nothing
 
-    - label: 'Post-Lecture Deadlines'
+    - label: 'Assignments'
       items:
         - text: ''
           icon: *icon_nothing
@@ -246,10 +269,10 @@ weeks:
 
     - label: 'Fri 10/16 Lecture'
       items:
-        - text: 'Presentations (Tenative)'
-          icon: *icon_presentation
+        # - text: 'Presentations (Tenative)'
+        #   icon: *icon_presentation
 
-    - label: 'Post-Lecture Deadlines'
+    - label: 'Assignments'
       items:
         - text: ''
           icon: *icon_nothing
@@ -267,7 +290,7 @@ weeks:
         - text: ''
           icon: *icon_nothing
 
-    - label: 'Post-Lecture Deadlines'
+    - label: 'Assignments'
       items:
         - text: ''
           icon: *icon_nothing
@@ -282,8 +305,8 @@ weeks:
 
     - label: 'Fri 10/30 Lecture'
       items:
-        - text: 'Presentations (Tenative)'
-          icon: *icon_presentation
+        # - text: 'Presentations (Tenative)'
+        #   icon: *icon_presentation
 
         - text: 'Withdraw Deadline'
           date: 2020-10-30
@@ -291,7 +314,7 @@ weeks:
           type: 'has-text-grey'
           bump: true
 
-    - label: 'Post-Lecture Deadlines'
+    - label: 'Assignments'
       items:
         - text: ''
           icon: *icon_nothing
@@ -306,9 +329,14 @@ weeks:
 
     - label: 'Fri 11/06 Lecture'
       items:
-        - text: 'CS Advising (Tenative)'
+        # - text: 'Presentations (Tenative)'
+        #   icon: *icon_presentation
 
-    - label: 'Post-Lecture Deadlines'
+        - text: 'CS Advising (Tenative)'
+          icon: *icon_workshop
+          bump: true
+
+    - label: 'Assignments'
       items:
         - text: ''
           icon: *icon_nothing
@@ -326,10 +354,10 @@ weeks:
 
     - label: 'Fri 11/13 Lecture'
       items:
-        - text: 'Presentations (Tenative)'
-          icon: *icon_presentation
+        # - text: 'Presentations (Tenative)'
+        #   icon: *icon_presentation
 
-    - label: 'Post-Lecture Deadlines'
+    - label: 'Assignments'
       items:
         - text: ''
           icon: *icon_nothing
@@ -363,7 +391,7 @@ weeks:
         - text: 'Course Evaluation'
           type: 'has-text-grey'
 
-    - label: 'Post-Lecture Deadlines'
+    - label: 'Assignments'
       items:
         - text: ''
           icon: *icon_nothing
