@@ -269,8 +269,8 @@ weeks:
 
     - label: 'Fri 10/16 Lecture'
       items:
-        # - text: 'Presentations (Tenative)'
-        #   icon: *icon_presentation
+        - text: 'Presentations (Tenative)'
+          icon: *icon_presentation
 
     - label: 'Assignments'
       items:
@@ -282,18 +282,22 @@ weeks:
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Speaker Questions'
+          icon: *icon_assignment
 
     - label: 'Fri 10/23 Lecture'
       items:
-        - text: ''
+        - text: 'Guest Speaker'
+          icon: *icon_speaker
+          type: 'strong'
+
+        - text: '<a href="https://www.jarenglover.com/">Jaren Glover</a>, <em>Infrastructure Engineer, Robinhood</em>'
           icon: *icon_nothing
 
     - label: 'Assignments'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Speaker Reflection'
+          icon: *icon_assignment
 
 - week: 11
   date: 2020-10-25
@@ -305,8 +309,8 @@ weeks:
 
     - label: 'Fri 10/30 Lecture'
       items:
-        # - text: 'Presentations (Tenative)'
-        #   icon: *icon_presentation
+        - text: 'Presentations (Tenative)'
+          icon: *icon_presentation
 
         - text: 'Withdraw Deadline'
           date: 2020-10-30
@@ -329,12 +333,8 @@ weeks:
 
     - label: 'Fri 11/06 Lecture'
       items:
-        # - text: 'Presentations (Tenative)'
-        #   icon: *icon_presentation
-
         - text: 'CS Advising (Tenative)'
           icon: *icon_workshop
-          bump: true
 
     - label: 'Assignments'
       items:
@@ -354,8 +354,8 @@ weeks:
 
     - label: 'Fri 11/13 Lecture'
       items:
-        # - text: 'Presentations (Tenative)'
-        #   icon: *icon_presentation
+        - text: 'Presentations (Tenative)'
+          icon: *icon_presentation
 
     - label: 'Assignments'
       items:
