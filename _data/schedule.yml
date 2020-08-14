@@ -193,15 +193,22 @@ weeks:
           date: 2020-09-17
           link: 'https://usfca.instructure.com/courses/1594618/assignments/6980278'
 
+        - text: 'Speaker Questions'
+          icon: *icon_assignment
+
     - label: 'Fri 09/18 Lecture'
       items:
-        - text: ''
+        - text: 'Guest Speaker'
+          icon: *icon_speaker
+          type: 'strong'
+
+        - text: '<a href="https://www.bdougie.live/">Brian Douglas</a>, <em>Developer Advocate, Github</em>'
           icon: *icon_nothing
 
     - label: 'Assignments'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Speaker Reflection'
+          icon: *icon_assignment
 
 - week: 6
   date: 2020-09-20
