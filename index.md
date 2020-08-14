@@ -77,7 +77,7 @@ title: Welcome
 
 <div class="notification is-danger">
   <button class="delete"></button>
-  <p>All instruction for Fall 2020 will be conducted remotely via Zoom. See the <a href="https://myusf.usfca.edu/covid">USF United</a> page for more resources related to the ongoing COVID-19 pandemic.</p>
+  <p>All instruction for Fall 2020 will be conducted remotely via Zoom. See the <a href="https://myusf.usfca.edu/covid">USF Remote</a> page for more resources related to the ongoing COVID-19 pandemic.</p>
 </div>
 
 {{ site.description }}
