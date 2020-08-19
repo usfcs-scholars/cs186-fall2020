@@ -84,7 +84,7 @@ title: Welcome
 
 Classes are livestreamed on **Fridays** from **1:00pm&ndash;2:45pm** via [Zoom]({{ site.zoom }}).
 
-[Getting Started Guide](https://docs.google.com/document/d/1v8ydzhhYzPiYcDz34K9WZLKWncjT95BrIhSsF21r8Gw/edit?usp=sharing){: .button .is-primary } &nbsp; [Join Livestream]({{ site.zoom }}){: .button .is-primary}
+[Getting Started Guide]({{ "/guides/getting-started.html" | relative_url }}){: .button .is-primary } &nbsp; [Join Livestream]({{ site.zoom }}){: .button .is-primary}
 
 ## Upcoming Schedule
 
