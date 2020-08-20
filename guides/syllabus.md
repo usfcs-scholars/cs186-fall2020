@@ -5,7 +5,7 @@ piazza: https://piazza.com/usfca/fall2020/cs186/home
 canvas: https://usfca.instructure.com/courses/1594618
 ---
 
-# CS 212 Software Development
+# CS 186 Special Topics: Community Engaged Computer Science
 {: .title }
 
 #### Fall 2020 &bull; CS 186-02 &bull; 2 Credits
