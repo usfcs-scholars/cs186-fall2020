@@ -2,7 +2,7 @@
 <nav class="navbar is-light" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item" href="index.html">
+      <a class="navbar-item" href="{{ "index.html" | relative_url }}">
         <img src="https://scholars.cs.usfca.edu/images/favicon.png" height="28" alt="USF Logo">
         &nbsp;
         <span class="has-text-weight-bold">
@@ -19,7 +19,7 @@
 
     <div id="main-menu" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item{% if page.title == "Schedule" %} is-active{% endif %}" href="schedule.html">
+        <a class="navbar-item{% if page.title == "Schedule" %} is-active{% endif %}" href="{{ "/schedule.html" | relative_url }}">
           <span class="icon">
             <i class="far fa-calendar-alt"></i>
           </span>
@@ -35,7 +35,7 @@
           </a>
 
           <div class="navbar-dropdown">
-            <a class="navbar-item" target="_blank" href="https://docs.google.com/document/d/1ZyVKA4n3_IrXNYjFBwp2Xpp4C1dkY-9tg2azWxKoXtc/edit?usp=sharing">
+            <a class="navbar-item" href="{{ "/guides/syllabus.html" | relative_url }}">
               <span class="icon">
                 <i class="far fa-book-alt"></i>
               </span>
