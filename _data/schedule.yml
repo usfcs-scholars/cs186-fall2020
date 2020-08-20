@@ -9,6 +9,9 @@ icons:
   video: &icon_video
     label: Video
     class: far fa-video
+  slides: &icon_slides
+    label: Slides
+    class: far fa-chalkboard-teacher
   presentation: &icon_presentation
     label: Presentation
     class: far fa-presentation
@@ -85,19 +88,27 @@ weeks:
           icon: *icon_participation
           link: 'https://docs.google.com/presentation/d/e/2PACX-1vQACjLOP5oB4I1FtbVqV6VKZptouAx_3zw3y-JL3AKzlymEFPS1qEqDcMsQPenrZbfGTP4N4VlZh8cK/pub?start=false&loop=false&delayms=3000&slide=id.g5e1d929e1d_0_454'
 
+        - text: 'Course Introduction'
+          icon: *icon_slides
+          link: 'https://docs.google.com/presentation/d/e/2PACX-1vR3lDIr3BAfXj0Vw1oSkMsHPYSorGuhYtWcaF6oHULhHIzxeAL2oPa19kJtOe0RE_sK0KpMwl29UwFC/pub?start=false&loop=false&delayms=3000'
+
         - text: 'Course Syllabus'
           icon: *icon_website
           link: 'guides/syllabus.html'
 
         - text: 'Interactive Break'
           icon:  *icon_break
-          link: 'https://docs.google.com/presentation/d/e/2PACX-1vQACjLOP5oB4I1FtbVqV6VKZptouAx_3zw3y-JL3AKzlymEFPS1qEqDcMsQPenrZbfGTP4N4VlZh8cK/pub?start=false&loop=false&delayms=3000&slide=id.g8f69a9c8a7_3_9'
+          link: 'break/'
           bump: true
 
         - text: 'Introductions'
           icon: *icon_participation
-          link: 'https://docs.google.com/presentation/d/e/2PACX-1vQACjLOP5oB4I1FtbVqV6VKZptouAx_3zw3y-JL3AKzlymEFPS1qEqDcMsQPenrZbfGTP4N4VlZh8cK/pub?start=false&loop=false&delayms=3000&slide=id.g8f69a9c8a7_3_18'
+          link: 'https://docs.google.com/presentation/d/e/2PACX-1vQzGGVaNHxkAUyDM24J7GlIXvokQJYACXytENd1HJTvjLY_9i2TXoDZZza8DrrPfDZhaEdTwZ-lOvNd/pub?start=false&loop=false&delayms=3000'
           bump: true
+
+        - text: 'Computer Science Careers'
+          icon: *icon_slides
+          link: 'https://docs.google.com/presentation/d/e/2PACX-1vQH7l8oGuE5tAnpy7krjlgmvgTLKLafl_7a1QyBqy52zG3w8DVv45i96OXizTXCn-egXf6ouD3QMQ7l/pub?start=false&loop=false&delayms=3000'
 
     - label: 'Assignments'
       items:
