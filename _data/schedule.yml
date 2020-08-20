@@ -69,7 +69,7 @@ weeks:
 
         - icon: *icon_guide
           text: 'Getting Started Guide'
-          link: 'https://docs.google.com/document/d/1v8ydzhhYzPiYcDz34K9WZLKWncjT95BrIhSsF21r8Gw/edit?usp=sharing'
+          link: 'guides/getting-started.html'
           bump: true
           type: 'has-text-weight-bold has-text-info'
 
@@ -87,7 +87,7 @@ weeks:
 
         - text: 'Course Syllabus'
           icon: *icon_website
-          link: 'https://docs.google.com/document/d/1ZyVKA4n3_IrXNYjFBwp2Xpp4C1dkY-9tg2azWxKoXtc/edit?usp=sharing'
+          link: 'guides/syllabus.html'
 
         - text: 'Interactive Break'
           icon:  *icon_break
