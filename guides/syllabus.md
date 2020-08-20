@@ -15,8 +15,19 @@ This course provides a structured opportunity for students to learn and particip
 
 ## Summary
 
-Pending
+A syllabus is similar to a contract between the instructor and the student, and as such can be quite long. Here is a summary of some important points in this document:
 
+  - Due to the Thanksgiving break and timing of the end of the semester, the last normal lecture for this class is Friday, November 20, 2020. See: [Important Dates](#important-dates)
+
+  - There will be no final exam. Instead, students must participate in CS Night on the evening of Thursday, December 5, 2020. See: [Grading Breakdown](#grading-breakdown)
+
+  - Students must get 60% or above in all categories to pass. Falling below that cutoff in any category will result in an F letter grade. See: [Grading Breakdown](#grading-breakdown)
+
+  - We will primarily use [Piazza]({{ page.piazza }}) for all asynchronous communication for this class, not email. See: [Communication Policy](#communication-policy)
+
+  - Attendance is required and late submissions are not accepted; but there are automatic exceptions granted for certain situations. See: [Course Policies](#course-policies)
+
+It is still the responsibility of each student to review the entire syllabus below.
 
 ## Course Details
 {: .page-header }
@@ -41,7 +52,110 @@ This course meets once a week as follows:
 
 Some activities may occur outside of the scheduled class time. These will be announced on [Piazza]({{ page.piazza }}).
 
-See the [Getting Started With Zoom]() guide for how to download, install, login, and properly use Zoom.
+See the [Getting Started With Zoom](getting-started-with-zoom.html) guide for how to download, install, login, and properly use Zoom.
+
+### Instructor
+
+The course instructor and office hours will be as follows:
+
+<div class="columns">
+  <div class="column is-narrow">
+    <div class="box">
+      <!-- nested columns for profile photo -->
+      <div class="columns is-mobile is-variable is-1">
+        <div class="column is-narrow">
+          <div class="image is-128x128">
+            <img class="is-rounded" src="/images/engle.png">
+          </div>
+        </div>
+
+        <div class="column">
+          <strong>Sophie Engle</strong><br/>
+          <i class="fa-fw fas fa-calendar-alt "></i>
+          <span>Thursdays, 2:45pm &ndash; 4:15pm</span>
+          <br/>
+
+          <i class="fa-fw fas fa-calendar-alt "></i>
+          <span>Fridays, 11:00pm &ndash; 12:30pm</span>
+          <br/>
+
+          <i class="fa-fw fas fa-signal-stream "></i>
+          Zoom: <a href="{{ site.data.info.streams.instructor.link }}">{{ site.data.info.streams.instructor.room }}</a>
+          <br/>
+
+          <i class="fa-fw fas fa-globe "></i>
+          <a href="//sjengle.cs.usfca.edu">sjengle.cs.usfca.edu</a>
+        </div>
+      </div>
+      <!-- end nested columns -->
+    </div>
+  </div>
+</div>
+
+### Teacher Assistant
+
+The teacher assistant and TA office hours will be as follows:
+
+<div class="columns">
+  <div class="column is-narrow">
+    <div class="box">
+      <!-- nested columns for profile photo -->
+      <div class="columns is-mobile is-variable is-1">
+        <div class="column is-narrow">
+          <div class="image is-128x128">
+            <img class="is-rounded" src="/images/hammond.jpg">
+          </div>
+        </div>
+
+        <div class="column">
+          <strong>Pierce Hammond</strong><br/>
+          <i class="fa-fw fas fa-calendar-alt "></i>
+          <span>Pending</span>
+          <br/>
+
+          <i class="fa-fw fas fa-signal-stream "></i>
+          Zoom: Pending
+          <br/>
+        </div>
+      </div>
+      <!-- end nested columns -->
+    </div>
+  </div>
+</div>
+
+### Prerequisites
+
+Requires instructor approval. Must be an incoming first-year CS major.
+
+### Required Materials
+
+There are no required textbooks for this class.
+
+Students will be required to use various software and websites, including Zoom, Canvas, Poll Everywhere, Piazza, and Linkedin Learning. Everything is free to use for enrolled students, will be linked from the course website, and class time will be dedicated to making sure everyone has appropriate access.
+
+Students must have access to a desktop or laptop computer, modern and updated web browser, and a stable internet connection to participate remotely in livestream lectures.
+{: .notification }
+
+### Important Dates
+
+Below are important dates relevant to this class:
+
+| 🚩 | Date  | Description |
+|---:|:-----:|:------------|
+|    | 08/18 | Fall 2020 classes begin. |
+| 🚩 | 08/21 | First CS 186-02 lecture. |
+|    | 08/24 | Last day to add classes online. |
+|    | 09/04 | Census date; last day to drop without a "W" appearing on transcript. |
+|    | 10/30 | Last day to withdraw from a class and receive a "W" on transcript. |
+| 🚩 | 11/20 | Last CS 186-02 lecture. |
+|    | 11/27 | Class canceled due to Thanksgiving recess. |
+| 🚩 | 12/03 | CS Night; Fall 2020 classes end. |
+{: class="table dates is-hoverable" style="width: auto;" }
+
+See the [official academic calendar](https://myusf.usfca.edu/registration/academic-calendar) for other important dates.
+
+We will not have a final exam in this class. Students must instead attend CS Night on Thursday December 3rd.
+{: .notification }
 
 ## Learning and Assessment
 {: .page-header }
