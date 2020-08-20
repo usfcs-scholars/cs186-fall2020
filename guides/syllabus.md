@@ -65,7 +65,7 @@ The course instructor and office hours will be as follows:
       <div class="columns is-mobile is-variable is-1">
         <div class="column is-narrow">
           <div class="image is-128x128">
-            <img class="is-rounded" src="/images/engle.png">
+            <img class="is-rounded" src="{{ "/images/engle.png" | relative_url }}">
           </div>
         </div>
 
@@ -103,7 +103,7 @@ The teacher assistant and TA office hours will be as follows:
       <div class="columns is-mobile is-variable is-1">
         <div class="column is-narrow">
           <div class="image is-128x128">
-            <img class="is-rounded" src="/images/hammond.jpg">
+            <img class="is-rounded" src="{{ "/images/hammond.jpg" | relative_url }}">
           </div>
         </div>
 
