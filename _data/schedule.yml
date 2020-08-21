@@ -114,9 +114,13 @@ weeks:
       items:
         - text: 'Piazza Setup'
           icon: *icon_assignment
-
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6995266'
+          date: 2020-08-27
+          
         - text: 'Photo Submission'
           icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6957554'
+          date: 2020-08-27
 
 - week: 2
   date: 2020-08-23
@@ -127,6 +131,17 @@ weeks:
           icon: *icon_date
           date: 2020-08-24
           type: 'has-text-grey'
+
+        - text: 'Piazza Setup'
+          icon: *icon_assignment
+          bump: true
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6995266'
+          date: 2020-08-27
+
+        - text: 'Photo Submission'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6957554'
+          date: 2020-08-27
 
     - label: 'Fri 08/28 Lecture'
       items:
