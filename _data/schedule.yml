@@ -104,16 +104,15 @@ weeks:
         - text: 'Interactive Break'
           icon:  *icon_break
           link: 'break/'
-          bump: true
+          type: 'bump'
 
         - text: 'Introductions'
           icon: *icon_participation
           link: 'https://docs.google.com/presentation/d/e/2PACX-1vQzGGVaNHxkAUyDM24J7GlIXvokQJYACXytENd1HJTvjLY_9i2TXoDZZza8DrrPfDZhaEdTwZ-lOvNd/pub?start=false&loop=false&delayms=3000'
-          bump: true
 
-        - text: 'Computer Science Careers'
-          icon: *icon_slides
-          link: 'https://docs.google.com/presentation/d/e/2PACX-1vQH7l8oGuE5tAnpy7krjlgmvgTLKLafl_7a1QyBqy52zG3w8DVv45i96OXizTXCn-egXf6ouD3QMQ7l/pub?start=false&loop=false&delayms=3000'
+        # - text: 'Computer Science Careers'
+        #   icon: *icon_slides
+        #   link: 'https://docs.google.com/presentation/d/e/2PACX-1vQH7l8oGuE5tAnpy7krjlgmvgTLKLafl_7a1QyBqy52zG3w8DVv45i96OXizTXCn-egXf6ouD3QMQ7l/pub?start=false&loop=false&delayms=3000'
 
     - label: 'Assignments'
       items:
