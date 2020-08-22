@@ -84,9 +84,14 @@ weeks:
     - label: 'Fri 08/21 Lecture'
       items:
 
+        - text: 'Lecture Recording'
+          icon: *icon_video
+          link: 'https://usfca.zoom.us/rec/share/uMUlJKC3qHNLSJXh6WH7XvViPJW7eaa80HIXq_MKyk3L_zYa1da5GJxjR_5Ujw_f?startTime=1598039277000'
+
         - text: 'Ask Me (Almost) Anything'
           icon: *icon_participation
           link: 'https://docs.google.com/presentation/d/e/2PACX-1vQACjLOP5oB4I1FtbVqV6VKZptouAx_3zw3y-JL3AKzlymEFPS1qEqDcMsQPenrZbfGTP4N4VlZh8cK/pub?start=false&loop=false&delayms=3000&slide=id.g5e1d929e1d_0_454'
+          type: 'bump'
 
         - text: 'Course Introduction'
           icon: *icon_slides
@@ -116,11 +121,17 @@ weeks:
           icon: *icon_assignment
           link: 'https://usfca.instructure.com/courses/1594618/assignments/6995266'
           date: 2020-08-27
-          
+
         - text: 'Photo Submission'
           icon: *icon_assignment
           link: 'https://usfca.instructure.com/courses/1594618/assignments/6957554'
           date: 2020-08-27
+
+        - text: 'Share Event'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6995427'
+          date: 2020-12-04
+          type: 'bump'
 
 - week: 2
   date: 2020-08-23
@@ -302,7 +313,7 @@ weeks:
 
     - label: 'Fri 10/16 Lecture'
       items:
-        - text: 'Presentations (Tenative)'
+        - text: 'Presentations'
           icon: *icon_presentation
 
     - label: 'Assignments'
@@ -342,7 +353,7 @@ weeks:
 
     - label: 'Fri 10/30 Lecture'
       items:
-        - text: 'Presentations (Tenative)'
+        - text: 'Presentations'
           icon: *icon_presentation
 
         - text: 'Withdraw Deadline'
@@ -366,7 +377,7 @@ weeks:
 
     - label: 'Fri 11/06 Lecture'
       items:
-        - text: 'CS Advising (Tenative)'
+        - text: 'CS Advising'
           icon: *icon_workshop
 
     - label: 'Assignments'
@@ -387,7 +398,7 @@ weeks:
 
     - label: 'Fri 11/13 Lecture'
       items:
-        - text: 'Presentations (Tenative)'
+        - text: 'Presentations'
           icon: *icon_presentation
 
     - label: 'Assignments'
@@ -457,5 +468,7 @@ weeks:
 
     - label: 'End of Semester Deadlines'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Share Event'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6995427'
+          date: 2020-12-04
