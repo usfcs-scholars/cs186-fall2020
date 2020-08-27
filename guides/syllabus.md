@@ -80,7 +80,7 @@ The course instructor and office hours will be as follows:
           <br/>
 
           <i class="fa-fw fas fa-signal-stream "></i>
-          Zoom: <a href="{{ site.data.info.streams.instructor.link }}">{{ site.data.info.streams.instructor.room }}</a>
+          Zoom: <a href="https://usfca.zoom.us/j/98397885780">983 9788 5780</a>
           <br/>
 
           <i class="fa-fw fas fa-globe "></i>
@@ -110,12 +110,13 @@ The teacher assistant and TA office hours will be as follows:
         <div class="column">
           <strong>Pierce Hammond</strong><br/>
           <i class="fa-fw fas fa-calendar-alt "></i>
-          <span>Pending</span>
+          <span>Wednesdays, 4:00pm &ndash; 5:00pm</span>
           <br/>
 
           <i class="fa-fw fas fa-signal-stream "></i>
-          Zoom: Pending
+          Zoom: <a href="https://zoom.us/j/6698549458">669 854 9458</a>
           <br/>
+          (See Piazza for password.)
         </div>
       </div>
       <!-- end nested columns -->
