@@ -163,44 +163,107 @@ weeks:
         - text: '<a href="https://myusf.usfca.edu/career-services/meet-staff">Juli-Anne Brockway</a>, <em>Career Counselor, Career Services Center</em>'
           icon: *icon_nothing
 
+        - text: 'Interactive Break'
+          icon:  *icon_break
+          link: 'break/'
+          type: 'bump'
+
+        - text: 'About Presentations'
+          type: 'bump'
+          icon: *icon_guide
+
+        - text: 'LinkedIn Exercise'
+          icon: *icon_participation
+          type: 'bump'
+
     - label: 'Assignments'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'LinkedIn Profile'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7911402'
+          date: 2020-09-03
+
+        - text: 'LinkedIn Network'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6973840'
+          date: 2020-09-03
+
+        - text: 'Panel Questions'
+          icon: *icon_assignment
+          type: 'bump'
+          date: 2020-09-03
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7924078'
+
+        - text: 'Presentation Date'
+          icon: *icon_assignment
+          type: 'bump'
+
+        - text: 'Presentation Topic'
+          icon: *icon_assignment
+
 
 - week: 3
   date: 2020-08-30
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'LinkedIn Profile'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7911402'
+          date: 2020-09-03
+
+        - text: 'LinkedIn Network'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6973840'
+          date: 2020-09-03
+
+        - text: 'Panel Questions'
+          icon: *icon_assignment
+          type: 'bump'
+          date: 2020-09-03
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7924078'
 
     - label: 'Fri 09/04 Lecture'
       items:
-        - text: 'Pending'
+        - text: 'Panel: Student Groups'
+          type: 'strong'
+          icon: *icon_panel
 
-        - text: 'Current Student Panel'
-          bump: true
+        - text: 'Ornelle Fonkoua Mambe, <em><a href="https://www.facebook.com/usfcawit/">Women in Tech</a></em>'
+          icon: *icon_nothing
+
+        - text: '<a href="https://www.linkedin.com/in/alhanson7210/">Alex Hanson</a>, <em>Diversineers, Hackers Club</em>'
+          icon: *icon_nothing
+
+        - text: 'Interactive Break'
+          icon:  *icon_break
+          link: 'break/'
+          type: 'bump'
+
+        - text: 'Panel: Remote Experiences'
           icon: *icon_panel
           type: 'bump strong'
 
         - text: '<a href="https://www.linkedin.com/in/jose-eduardo-corella-carranza-b33804102/">Jose Corella</a>, <em>USF BSCS Class of 2021 (Expected)</em>'
           icon: *icon_nothing
 
-        - text: '<a href="https://www.linkedin.com/in/jose-eduardo-corella-carranza-b33804102/">Evelyn Matson</a>, <em>USF BSCS Class of 2021 (Expected)</em>'
+        - text: '<a href="https://www.linkedin.com/in/evelyn-matson-a19a3716a/">Evelyn Matson</a>, <em>USF BSCS Class of 2021 (Expected)</em>'
           icon: *icon_nothing
 
         - text: 'Drop Deadline'
           icon: *icon_date
           date: 2020-09-04
-          type: 'has-text-grey'
-          bump: true
+          type: 'bump has-text-grey'
 
     - label: 'Assignments'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Panel Reflection (Student Groups)'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6998180'
+
+        - text: 'Panel Reflection (Remote Experiences)'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6998181'          
 
 - week: 4
   date: 2020-09-06
@@ -247,6 +310,9 @@ weeks:
     - label: 'Assignments'
       items:
         - text: 'Speaker Reflection'
+          icon: *icon_assignment
+
+        - text: 'Presentation Draft'
           icon: *icon_assignment
 
 - week: 6
