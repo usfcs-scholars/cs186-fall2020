@@ -155,8 +155,10 @@ weeks:
 
     - label: 'Fri 08/28 Lecture'
       items:
-        - text: '<strong><a href="https://myusf.usfca.edu/career-services/get-linkedin">Linkedin Workshop</a></strong>'
+        - text: 'Linkedin Workshop'
           icon: *icon_workshop
+          type: 'strong'
+          link: 'https://myusf.usfca.edu/career-services/get-linkedin'
 
         - text: '<a href="https://myusf.usfca.edu/career-services/meet-staff">Juli-Anne Brockway</a>, <em>Career Counselor, Career Services Center</em>'
           icon: *icon_nothing
@@ -178,9 +180,10 @@ weeks:
       items:
         - text: 'Pending'
 
-        - text: '<strong>Current Student Panel</strong>'
+        - text: 'Current Student Panel'
           bump: true
           icon: *icon_panel
+          type: 'bump strong'
 
         - text: '<a href="https://www.linkedin.com/in/jose-eduardo-corella-carranza-b33804102/">Jose Corella</a>, <em>USF BSCS Class of 2021 (Expected)</em>'
           icon: *icon_nothing
@@ -276,7 +279,15 @@ weeks:
 
     - label: 'Fri 10/02 Lecture'
       items:
-        - text: ''
+        - text: 'CAPS Services and Stress Management'
+          icon: *icon_workshop
+          link: 'https://myusf.usfca.edu/caps/services'
+          type: 'strong'
+
+        - text: 'Dr. Gary Hennemuth, <em>Postdoctoral Fellow, CAPS</em>'
+          icon: *icon_nothing
+
+        - text: 'Ms. Brittany Crawford, <em>Health Service Psychology Intern, CAPS</em>'
           icon: *icon_nothing
 
     - label: 'Assignments'
