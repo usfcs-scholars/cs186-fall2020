@@ -196,11 +196,14 @@ weeks:
 
         - text: 'Presentation Date'
           icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6972922'
+          date: 2020-09-10
           type: 'bump'
 
         - text: 'Presentation Topic'
           icon: *icon_assignment
-
+          date: 2020-09-17
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6980278'
 
 - week: 3
   date: 2020-08-30
@@ -263,7 +266,7 @@ weeks:
 
         - text: 'Panel Reflection (Remote Experiences)'
           icon: *icon_assignment
-          link: 'https://usfca.instructure.com/courses/1594618/assignments/6998181'          
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6998181'
 
 - week: 4
   date: 2020-09-06
