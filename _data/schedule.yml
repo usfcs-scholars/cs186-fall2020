@@ -155,6 +155,11 @@ weeks:
 
     - label: 'Fri 08/28 Lecture'
       items:
+
+        - text: 'Lecture Recording'
+          icon: *icon_video
+          link: 'https://usfca.zoom.us/rec/play/vJF5dLqo-zI3SNDAsgSDVqN_W43ve6ysgSkervIFyE_hUSULNVCnZ7oWZrBv9J5CCowBRvF6hZXoZw_r'
+
         - text: 'Linkedin Workshop'
           icon: *icon_workshop
           type: 'strong'
@@ -162,6 +167,10 @@ weeks:
 
         - text: '<a href="https://myusf.usfca.edu/career-services/meet-staff">Juli-Anne Brockway</a>, <em>Career Counselor, Career Services Center</em>'
           icon: *icon_nothing
+
+        - text: '(Download Slides)'
+          icon: *icon_nothing
+          link: 'https://drive.google.com/file/d/1sxdXpeGY1-NoS8JJc8R3H1drzGiU8MkJ/view?usp=sharing'
 
         - text: 'Interactive Break'
           icon:  *icon_break
@@ -174,7 +183,6 @@ weeks:
 
         - text: 'LinkedIn Exercise'
           icon: *icon_participation
-          type: 'bump'
 
     - label: 'Assignments'
       items:
