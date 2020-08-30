@@ -162,7 +162,7 @@ weeks:
 
         - text: 'Linkedin Workshop'
           icon: *icon_workshop
-          type: 'strong'
+          type: 'strong bump'
           link: 'https://myusf.usfca.edu/career-services/get-linkedin'
 
         - text: '<a href="https://myusf.usfca.edu/career-services/meet-staff">Juli-Anne Brockway</a>, <em>Career Counselor, Career Services Center</em>'
@@ -258,7 +258,7 @@ weeks:
         - text: '<a href="https://www.linkedin.com/in/jose-eduardo-corella-carranza-b33804102/">Jose Corella</a>, <em>USF BSCS Class of 2021 (Expected)</em>'
           icon: *icon_nothing
 
-        - text: '<a href="https://www.linkedin.com/in/evelyn-matson-a19a3716a/">Evelyn Matson</a>, <em>USF BSCS Class of 2021 (Expected)</em>'
+        - text: '<a href="https://www.linkedin.com/in/isabel-ringo-a891ab182/">Isabel Ringo</a>, <em>USF BSCS Class of 2020 (Expected)</em>'
           icon: *icon_nothing
 
         - text: 'Drop Deadline'
