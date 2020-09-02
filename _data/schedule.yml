@@ -243,7 +243,10 @@ weeks:
         - text: 'Ornelle Fonkoua Mambe, <em><a href="https://www.facebook.com/usfcawit/">Women in Tech</a></em>'
           icon: *icon_nothing
 
-        - text: '<a href="https://www.linkedin.com/in/alhanson7210/">Alex Hanson</a>, <em>Diversineers, Hackers Club</em>'
+        - text: '<a href="https://www.linkedin.com/in/alhanson7210/">Alex Hanson</a>, <em>Hackers Club</em>'
+          icon: *icon_nothing
+
+        - text: '<a href="https://www.linkedin.com/in/agalvanalarcon/">Arturo Galvan-Alarcon</a>, <em>Diversineers</em>'
           icon: *icon_nothing
 
         - text: 'Interactive Break'
