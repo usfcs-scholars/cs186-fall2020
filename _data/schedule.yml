@@ -236,8 +236,12 @@ weeks:
 
     - label: 'Fri 09/04 Lecture'
       items:
+        - text: 'Lecture Recording'
+          icon: *icon_video
+          link: 'https://usfca.zoom.us/rec/play/EXWq6igtOPVoyt1YxqfKVICxHMfd7rohtDHhjgiRSusmFzZeehUWx18arFWmgjMhL8IMdBc3AQx5SbLC.HvoAHZQqaT-fUhex'
+
         - text: 'Panel: Student Groups'
-          type: 'strong'
+          type: 'strong bump'
           icon: *icon_panel
 
         - text: 'Ornelle Fonkoua Mambe, <em><a href="https://www.facebook.com/usfcawit/">Women in Tech</a></em>'
@@ -289,15 +293,40 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1594618/assignments/6972922'
           date: 2020-09-10
 
+        - text: 'Panel Reflection (Student Groups)'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6998180'
+          date: 2020-09-10
+          type: 'bump'
+
+        - text: 'Panel Reflection (Remote Experiences)'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6998181'
+          date: 2020-09-10
+
     - label: 'Fri 09/11 Lecture'
       items:
-        - text: ''
+        - text: 'Public Speaking 101'
+          icon: *icon_workshop
+
+        - text: 'Miles Williams, <em><a href="https://myusf.usfca.edu/lwsc/speaking-center/meet-speaking-center-staff">Speaking Center Coach</a>, <a href="https://myusf.usfca.edu/lwsc/speaking-center/">Speaking Center</a></em>'
           icon: *icon_nothing
+
+        - text: 'Interactive Break'
+          icon:  *icon_break
+          link: 'break/'
+          type: 'bump'
+
+        - text: 'Google Slides Workshop'
+          icon: *icon_participation
+          type: 'bump'
 
     - label: 'Assignments'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Presentation Topic'
+          icon: *icon_assignment
+          date: 2020-09-17
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6980278'
 
 - week: 5
   date: 2020-09-13
@@ -320,6 +349,15 @@ weeks:
 
         - text: '<a href="https://www.bdougie.live/">Brian Douglas</a>, <em>Developer Advocate, Github</em>'
           icon: *icon_nothing
+
+        - text: 'Interactive Break'
+          icon:  *icon_break
+          link: 'break/'
+          type: 'bump'
+
+        - text: 'Github Profile Workshop'
+          icon: *icon_participation
+          type: 'bump'
 
     - label: 'Assignments'
       items:
