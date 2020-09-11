@@ -329,6 +329,11 @@ weeks:
           date: 2020-09-17
           link: 'https://usfca.instructure.com/courses/1594618/assignments/6980278'
 
+        - text: 'Speaker Questions'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7929474'
+          date: 2020-09-17
+
 - week: 5
   date: 2020-09-13
   columns:
@@ -341,6 +346,8 @@ weeks:
 
         - text: 'Speaker Questions'
           icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7929474'
+          date: 2020-09-17
 
     - label: 'Fri 09/18 Lecture'
       items:
