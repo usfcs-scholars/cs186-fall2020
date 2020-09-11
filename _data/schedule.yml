@@ -371,6 +371,8 @@ weeks:
       items:
         - text: 'Presentation Draft'
           icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6972924'
+          date: 2020-10-01
 
         - text: 'Speaker Reflection'
           icon: *icon_assignment
@@ -422,6 +424,11 @@ weeks:
         - text: 'Panel Reflection'
           icon: *icon_assignment
           link: 'https://usfca.instructure.com/courses/1594618/assignments/7002439'
+          date: 2020-10-01
+
+        - text: 'Presentation Draft'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6972924'
           date: 2020-10-01
 
 - week: 7
