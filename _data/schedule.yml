@@ -306,8 +306,13 @@ weeks:
 
     - label: 'Fri 09/11 Lecture'
       items:
+        - text: 'Lecture Recording'
+          icon: *icon_video
+          link: 'https://usfca.zoom.us/rec/share/njV3OfEA3xPvJu4MCWWAqU36KPWNiVKQ5yIn97Wmokye7wzcvuFdSLVaaTGqt50h.WZr8TSs8hVb7WVGB'
+
         - text: 'Public Speaking 101'
           icon: *icon_workshop
+          type: 'bump'
 
         - text: 'Miles Williams, <em><a href="https://myusf.usfca.edu/lwsc/speaking-center/meet-speaking-center-staff">Speaking Center Coach</a>, <a href="https://myusf.usfca.edu/lwsc/speaking-center/">Speaking Center</a></em>'
           icon: *icon_nothing
