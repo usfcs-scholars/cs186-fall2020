@@ -483,7 +483,7 @@ weeks:
           icon: *icon_panel
           type: 'bump strong'
 
-        - text: '<a href="https://www.linkedin.com/in/gordongli/">Gordon Li</a>, Software Engineer @ <a href="https://www.yelp.careers/us/en">Yelp</a>, USF BSCS '19'
+        - text: '<a href="https://www.linkedin.com/in/gordongli/">Gordon Li</a>, Software Engineer @ <a href="https://www.yelp.careers/us/en">Yelp</a>, USF BSCS Class of 2019'
           icon: *icon_nothing
 
         - text: 'Interactive Break'
@@ -495,10 +495,10 @@ weeks:
           icon: *icon_panel
           type: 'bump strong'
 
-        - text: '<a href="https://www.linkedin.com/in/kevin-moran-32028a26/">Kevin Moran</a>, Software Developer Manager @ <a href="https://www.aboutamazon.com/">Amazon</a>, USF BSCS '10, MSCS '12'
+        - text: '<a href="https://www.linkedin.com/in/kevin-moran-32028a26/">Kevin Moran</a>, Software Developer Manager @ <a href="https://www.aboutamazon.com/">Amazon</a>, USF BSCS Class of 2010, MSCS Class of 2012'
           icon: *icon_nothing
 
-        - text: '<a href="https://www.linkedin.com/in/ganbilegbor/">Ganbileg Bor</a>, Senior Software Engineer @ <a href="https://www.redditinc.com/">Reddit</a>, USF BSCS '12, MSWS '13'
+        - text: '<a href="https://www.linkedin.com/in/ganbilegbor/">Ganbileg Bor</a>, Senior Software Engineer @ <a href="https://www.redditinc.com/">Reddit</a>, USF BSCS Class of 2012, MSWS Class of 2013'
           icon: *icon_nothing
 
     - label: 'Assignments'
