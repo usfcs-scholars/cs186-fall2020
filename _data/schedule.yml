@@ -536,6 +536,15 @@ weeks:
       items:
         - text: 'Presentations'
           icon: *icon_presentation
+          link: 'https://usfca.instructure.com/courses/1594618/pages/student-presentations'
+
+        - text: 'Interactive Break'
+          icon:  *icon_break
+          link: 'break/'
+          type: 'bump'
+
+        - text: 'Pending'
+          type: 'bump'
 
     - label: 'Assignments'
       items:
@@ -576,6 +585,15 @@ weeks:
       items:
         - text: 'Presentations'
           icon: *icon_presentation
+          link: 'https://usfca.instructure.com/courses/1594618/pages/student-presentations'
+
+        - text: 'Interactive Break'
+          icon:  *icon_break
+          link: 'break/'
+          type: 'bump'
+
+        - text: 'Pending'
+          type: 'bump'
 
         - text: 'Withdraw Deadline'
           date: 2020-10-30
@@ -601,6 +619,14 @@ weeks:
         - text: 'CS Advising'
           icon: *icon_workshop
 
+        - text: 'Interactive Break'
+          icon:  *icon_break
+          link: 'break/'
+          type: 'bump'
+
+        - text: 'Pending'
+          type: 'bump'
+
     - label: 'Assignments'
       items:
         - text: ''
@@ -621,6 +647,17 @@ weeks:
       items:
         - text: 'Presentations'
           icon: *icon_presentation
+          link: 'https://usfca.instructure.com/courses/1594618/pages/student-presentations'
+
+        - text: 'Interactive Break'
+          icon:  *icon_break
+          link: 'break/'
+          type: 'bump'
+
+        - text: 'Presentations'
+          icon: *icon_presentation
+          link: 'https://usfca.instructure.com/courses/1594618/pages/student-presentations'
+          type: 'bump'
 
     - label: 'Assignments'
       items:
