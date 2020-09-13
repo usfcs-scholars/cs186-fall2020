@@ -262,10 +262,10 @@ weeks:
           icon: *icon_panel
           type: 'bump strong'
 
-        - text: '<a href="https://www.linkedin.com/in/jose-eduardo-corella-carranza-b33804102/">Jose Corella</a>, <em>USF BSCS Class of 2021 (Expected)</em>'
+        - text: '<a href="https://www.linkedin.com/in/jose-eduardo-corella-carranza-b33804102/">Jose Corella</a>, <em>USF BSCS 2021 (Expected)</em>'
           icon: *icon_nothing
 
-        - text: '<a href="https://www.linkedin.com/in/isabel-ringo-a891ab182/">Isabel Ringo</a>, <em>USF BSCS Class of 2020 (Expected)</em>'
+        - text: '<a href="https://www.linkedin.com/in/isabel-ringo-a891ab182/">Isabel Ringo</a>, <em>USF BSCS 2020 (Expected)</em>'
           icon: *icon_nothing
 
         - text: 'Drop Deadline'
@@ -403,10 +403,13 @@ weeks:
           type: 'strong bump'
           icon: *icon_panel
 
-        - text: '<a href="https://www.linkedin.com/in/samuel-escapa/">Samuel Escapa Otani</a>, Software Engineer @ <a href="https://www.zendesk.com/about/">Zendesk</a>, USF BSCS Class of 2020'
+        - text: '<a href="https://www.linkedin.com/in/samuel-escapa/">Samuel Escapa Otani</a>, Software Engineer @ <a href="https://www.zendesk.com/about/">Zendesk</a>, USF BSCS 2020'
           icon: *icon_nothing
 
-        - text: '<a href="https://www.linkedin.com/in/oliviakumar/">Olivia Kumar</a>, iOS Mobile App Developer @ <a href="https://careers.bankofamerica.com/en-us">Bank of America</a>, USF BSCS Class of 2020'
+        - text: '<a href="https://www.linkedin.com/in/oliviakumar/">Olivia Kumar</a>, iOS Mobile App Developer @ <a href="https://careers.bankofamerica.com/en-us">Bank of America</a>, USF BSCS 2020'
+          icon: *icon_nothing
+
+        - text: '<a href="https://www.linkedin.com/in/casey-haber-143716b2/">Casey Haber</a>, Visualization Engineer @ <a href="https://chartio.com/about/careers/">Chartio</a>, USF BSCS 2018'
           icon: *icon_nothing
 
         - text: 'Interactive Break'
@@ -418,10 +421,10 @@ weeks:
           icon: *icon_panel
           type: 'bump strong'
 
-        - text: '<a href="https://www.linkedin.com/in/michellepmdong/">Michelle Dong</a>, Backend Engineer @ <a href="https://www.rescale.com/">Rescale</a>, USF BSCS Class of 2020'
+        - text: '<a href="https://www.linkedin.com/in/michellepmdong/">Michelle Dong</a>, Backend Engineer @ <a href="https://www.rescale.com/">Rescale</a>, USF BSCS 2020'
           icon: *icon_nothing
 
-        - text: '<a href="https://www.linkedin.com/in/gphendry/">Graham Hendry</a>, Quality Assurance Automation Engineer @ <a href="https://www.dmdc.osd.mil/">Defense Manpower Data Center</a>, USF BSCS Class of 2020'
+        - text: '<a href="https://www.linkedin.com/in/gphendry/">Graham Hendry</a>, Quality Assurance Automation Engineer @ <a href="https://www.dmdc.osd.mil/">Defense Manpower Data Center</a>, USF BSCS 2020'
           icon: *icon_nothing
 
     - label: 'Assignments'
@@ -464,6 +467,21 @@ weeks:
         - text: 'Ms. Brittany Crawford, <em>Health Service Psychology Intern, CAPS</em>'
           icon: *icon_nothing
 
+        - text: 'Interactive Break'
+          icon:  *icon_break
+          link: 'break/'
+          type: 'bump'
+
+        - text: 'Women in Tech Panel'
+          icon: *icon_panel
+          type: 'bump strong'
+
+        - text: '<a href="https://www.linkedin.com/in/melalrajhi/">Mel Alrajhi</a>, Senior Software Engineer @ <a href="https://www.digitalocean.com/careers/">DigitalOcean</a>, USF BSCS 2013'
+          icon: *icon_nothing
+
+        - text: '<a href="https://www.linkedin.com/in/alyssa-pohahau-she-her-hers-1554a440/">Alyssa Pohahau</a>, Software Engineer @ <a href="https://careers.google.com/">Google</a>, USF BSCS 2014'
+          icon: *icon_nothing
+
     - label: 'Assignments'
       items:
         - text: ''
@@ -483,7 +501,7 @@ weeks:
           icon: *icon_panel
           type: 'bump strong'
 
-        - text: '<a href="https://www.linkedin.com/in/gordongli/">Gordon Li</a>, Software Engineer @ <a href="https://www.yelp.careers/us/en">Yelp</a>, USF BSCS Class of 2019'
+        - text: '<a href="https://www.linkedin.com/in/gordongli/">Gordon Li</a>, Software Engineer @ <a href="https://www.yelp.careers/us/en">Yelp</a>, USF BSCS 2019'
           icon: *icon_nothing
 
         - text: 'Interactive Break'
@@ -495,10 +513,10 @@ weeks:
           icon: *icon_panel
           type: 'bump strong'
 
-        - text: '<a href="https://www.linkedin.com/in/kevin-moran-32028a26/">Kevin Moran</a>, Software Developer Manager @ <a href="https://www.aboutamazon.com/">Amazon</a>, USF BSCS Class of 2010, MSCS Class of 2012'
+        - text: '<a href="https://www.linkedin.com/in/kevin-moran-32028a26/">Kevin Moran</a>, Software Developer Manager @ <a href="https://www.aboutamazon.com/">Amazon</a>, USF BSCS 2010, MSCS 2012'
           icon: *icon_nothing
 
-        - text: '<a href="https://www.linkedin.com/in/ganbilegbor/">Ganbileg Bor</a>, Senior Software Engineer @ <a href="https://www.redditinc.com/">Reddit</a>, USF BSCS Class of 2012, MSWS Class of 2013'
+        - text: '<a href="https://www.linkedin.com/in/ganbilegbor/">Ganbileg Bor</a>, Senior Software Engineer @ <a href="https://www.redditinc.com/">Reddit</a>, USF BSCS 2012, MSWS 2013'
           icon: *icon_nothing
 
     - label: 'Assignments'
