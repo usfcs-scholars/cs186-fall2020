@@ -370,6 +370,7 @@ weeks:
 
         - text: 'Github Profile Workshop'
           icon: *icon_participation
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7004384'
           type: 'bump'
 
     - label: 'Assignments'
@@ -381,21 +382,38 @@ weeks:
 
         - text: 'Speaker Reflection'
           icon: *icon_assignment
+          date: 2020-09-24
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7004385'
 
         - text: 'Panel Questions'
           icon: *icon_assignment
           date: 2020-09-24
           link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7929259'
+
+        - text: 'Github Profile'
+          icon: *icon_participation
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7004384'
+          date: 2020-09-24
 
 - week: 6
   date: 2020-09-20
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
+        - text: 'Speaker Reflection'
+          icon: *icon_assignment
+          date: 2020-09-24
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7004385'
+
         - text: 'Panel Questions'
           icon: *icon_assignment
           date: 2020-09-24
           link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7929259'
+
+        - text: 'Github Profile'
+          icon: *icon_participation
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7004384'
+          date: 2020-09-24
 
     - label: 'Fri 09/25 Lecture'
       items:
