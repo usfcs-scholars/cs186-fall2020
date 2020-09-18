@@ -312,7 +312,7 @@ weeks:
 
         - text: 'Public Speaking 101'
           icon: *icon_workshop
-          type: 'bump'
+          type: 'bump strong'
 
         - text: 'Miles Williams, <em><a href="https://myusf.usfca.edu/lwsc/speaking-center/meet-speaking-center-staff">Speaking Center Coach</a>, <a href="https://myusf.usfca.edu/lwsc/speaking-center/">Speaking Center</a></em>'
           icon: *icon_nothing
@@ -375,11 +375,6 @@ weeks:
 
     - label: 'Assignments'
       items:
-        - text: 'Presentation Draft'
-          icon: *icon_assignment
-          link: 'https://usfca.instructure.com/courses/1594618/assignments/6972924'
-          date: 2020-10-01
-
         - text: 'Speaker Reflection'
           icon: *icon_assignment
           date: 2020-09-24
@@ -394,6 +389,12 @@ weeks:
           icon: *icon_participation
           link: 'https://usfca.instructure.com/courses/1594618/assignments/7004384'
           date: 2020-09-24
+
+        - text: 'Presentation Draft'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6972924'
+          date: 2020-10-01
+          type: 'bump'
 
 - week: 6
   date: 2020-09-20
@@ -452,25 +453,38 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1594618/assignments/7002439'
           date: 2020-10-01
 
+        - text: 'Panel Questions'
+          icon: *icon_assignment
+          date: 2020-10-01
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7931741'
+
         - text: 'Presentation Draft'
           icon: *icon_assignment
           link: 'https://usfca.instructure.com/courses/1594618/assignments/6972924'
           date: 2020-10-01
+          type: 'bump'
 
 - week: 7
   date: 2020-09-27
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: 'Presentation Draft'
-          icon: *icon_assignment
-          date: 2020-10-01
-          link: 'https://usfca.instructure.com/courses/1594618/assignments/6972924'
-
         - text: 'Panel Reflection'
           icon: *icon_assignment
           link: 'https://usfca.instructure.com/courses/1594618/assignments/7002439'
           date: 2020-10-01
+
+        - text: 'Panel Questions'
+          icon: *icon_assignment
+          date: 2020-10-01
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7931741'
+
+        - text: 'Presentation Draft'
+          icon: *icon_assignment
+          date: 2020-10-01
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6972924'
+          type: 'bump'
+
 
     - label: 'Fri 10/02 Lecture'
       items:
@@ -502,22 +516,42 @@ weeks:
 
     - label: 'Assignments'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Panel Reflection'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7004418'
+          date: 2020-10-08
+
+        - text: 'Panel Questions'
+          icon: *icon_assignment
+          date: 2020-10-08
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7931736'
 
 - week: 8
   date: 2020-10-04
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Panel Reflection'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7004418'
+          date: 2020-10-08
+
+        - text: 'Panel Questions'
+          icon: *icon_assignment
+          date: 2020-10-08
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7931736'
 
     - label: 'Fri 10/09 Lecture'
       items:
         - text: 'Alumni Panel'
           icon: *icon_panel
           type: 'bump strong'
+
+        - text: '<a href="https://www.linkedin.com/in/helenhchen/">Helen Chen</a>, Senior Software Engineer @ <a href="https://www.okta.com/company/careers/">Okta</a>, USF BSCS 2017'
+          icon: *icon_nothing
+
+        - text: '<a href="https://www.linkedin.com/in/david-katz-sf/">David Katz</a>, Software Engineer @ <a href="https://jobs.zendesk.com/us/en">Zendesk</a>, USF BSCS Class of 2018'
+          icon: *icon_nothing
 
         - text: '<a href="https://www.linkedin.com/in/gordongli/">Gordon Li</a>, Software Engineer @ <a href="https://www.yelp.careers/us/en">Yelp</a>, USF BSCS 2019'
           icon: *icon_nothing
@@ -539,16 +573,21 @@ weeks:
 
     - label: 'Assignments'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Panel Reflection'
+          icon: *icon_assignment
+          date: 2020-10-15
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7004416'
+
 
 - week: 9
   date: 2020-10-11
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Panel Reflection'
+          icon: *icon_assignment
+          date: 2020-10-15
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7004416'
 
     - label: 'Fri 10/16 Lecture'
       items:
