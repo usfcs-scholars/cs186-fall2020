@@ -493,10 +493,7 @@ weeks:
           link: 'https://myusf.usfca.edu/caps/services'
           type: 'strong'
 
-        - text: 'Dr. Gary Hennemuth, <em>Postdoctoral Fellow, CAPS</em>'
-          icon: *icon_nothing
-
-        - text: 'Ms. Brittany Crawford, <em>Health Service Psychology Intern, CAPS</em>'
+        - text: 'Dr. Polina Apilado, <em>Assistant Director for Outreach and Staff Psychologist, CAPS</em>'
           icon: *icon_nothing
 
         - text: 'Interactive Break'
