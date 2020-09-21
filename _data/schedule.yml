@@ -356,9 +356,13 @@ weeks:
 
     - label: 'Fri 09/18 Lecture'
       items:
+        - text: 'Lecture Recording'
+          icon: *icon_video
+          link: 'https://usfca.zoom.us/rec/play/NNkWcRPF_xkram1kTOoldS813ttQuqfTSEAhNhTlkJpFWdXUzIAOESWqGvbWZ3GyOMesVRu8MS9tC-Yt.kAzlNNeVLrxV9yeI'
+
         - text: 'Guest Speaker'
           icon: *icon_speaker
-          type: 'strong'
+          type: 'strong bump'
 
         - text: '<a href="https://www.bdougie.live/">Brian Douglas</a>, <em>Developer Advocate, Github</em>'
           icon: *icon_nothing
@@ -575,6 +579,7 @@ weeks:
           date: 2020-10-15
           link: 'https://usfca.instructure.com/courses/1594618/assignments/7004416'
 
+        - text: 'Speaker Questions'
 
 - week: 9
   date: 2020-10-11
@@ -585,6 +590,8 @@ weeks:
           icon: *icon_assignment
           date: 2020-10-15
           link: 'https://usfca.instructure.com/courses/1594618/assignments/7004416'
+
+        - text: 'Speaker Questions'
 
     - label: 'Fri 10/16 Lecture'
       items:
@@ -597,13 +604,16 @@ weeks:
           link: 'break/'
           type: 'bump'
 
-        - text: 'Pending'
-          type: 'bump'
+        - text: 'Guest Speaker'
+          icon: *icon_speaker
+          type: 'strong bump'
+
+        # - text: '<a href="https://www.linkedin.com/in/mariakaz/">Maria Kazandjieva</a>, <em>Engineering Manager (Browser Player Team), <a href="https://jobs.netflix.com/">Netflix</a></em>'
+        #   icon: *icon_nothing
 
     - label: 'Assignments'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Speaker Reflection'
 
 - week: 10
   date: 2020-10-18
