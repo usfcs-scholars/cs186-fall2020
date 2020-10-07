@@ -546,6 +546,12 @@ weeks:
           date: 2020-10-08
           link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7931736'
 
+        - text: 'Event Extra Credit'
+          icon: *icon_assignment
+          type: 'bump'
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6983469'
+          date: 2020-10-08
+
     - label: 'Fri 10/09 Lecture'
       items:
         - text: 'Alumni Panel'
@@ -587,6 +593,9 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1594618/assignments/7004416'
 
         - text: 'Speaker Questions'
+          icon: *icon_assignment
+          date: 2020-10-15
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7937872'
 
 - week: 9
   date: 2020-10-11
@@ -599,6 +608,9 @@ weeks:
           link: 'https://usfca.instructure.com/courses/1594618/assignments/7004416'
 
         - text: 'Speaker Questions'
+          icon: *icon_assignment
+          date: 2020-10-15
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7937872'
 
     - label: 'Fri 10/16 Lecture'
       items:
@@ -621,14 +633,29 @@ weeks:
     - label: 'Assignments'
       items:
         - text: 'Speaker Reflection'
+          icon: *icon_assignment
+          date: 2020-10-22
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7009863'
+
+        - text: 'Speaker Questions'
+          icon: *icon_assignment
+          date: 2020-10-22
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7937875'
 
 - week: 10
   date: 2020-10-18
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
+        - text: 'Speaker Reflection'
+          icon: *icon_assignment
+          date: 2020-10-22
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7009863'
+
         - text: 'Speaker Questions'
           icon: *icon_assignment
+          date: 2020-10-22
+          link: 'https://usfca.instructure.com/courses/1594618/discussion_topics/7937875'
 
     - label: 'Fri 10/23 Lecture'
       items:
@@ -639,18 +666,32 @@ weeks:
         - text: '<a href="https://www.jarenglover.com/">Jaren Glover</a>, <em>Infrastructure Engineer, Robinhood</em>'
           icon: *icon_nothing
 
+        - text: 'Interactive Break'
+          icon:  *icon_break
+          link: 'break/'
+          type: 'bump'
+
+        - text: 'CS Careers'
+          icon: *icon_slides
+          type: 'bump'
+          link: 'https://docs.google.com/presentation/d/e/2PACX-1vQH7l8oGuE5tAnpy7krjlgmvgTLKLafl_7a1QyBqy52zG3w8DVv45i96OXizTXCn-egXf6ouD3QMQ7l/pub?start=false&loop=false&delayms=3000'
+
     - label: 'Assignments'
       items:
         - text: 'Speaker Reflection'
           icon: *icon_assignment
+          date: 2020-10-29
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7009878'
 
 - week: 11
   date: 2020-10-25
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Speaker Reflection'
+          icon: *icon_assignment
+          date: 2020-10-29
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7009878'
 
     - label: 'Fri 10/30 Lecture'
       items:
@@ -674,16 +715,20 @@ weeks:
 
     - label: 'Assignments'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Advising Group'
+          icon: *icon_assignment
+          date: 2020-11-05
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7009888'
 
 - week: 12
   date: 2020-11-01
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Advising Group'
+          icon: *icon_assignment
+          date: 2020-11-05
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7009888'
 
     - label: 'Fri 11/06 Lecture'
       items:
@@ -788,6 +833,28 @@ weeks:
           icon: *icon_date
           type: 'has-text-weight-bold has-text-danger'
           date: 2020-12-03
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6980470'
+
+        - text: 'University Event'
+          icon: *icon_workshop
+          date: 2020-12-03
+          type: 'bump'
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6980569'
+
+        - text: 'CS Event'
+          icon: *icon_workshop
+          date: 2020-12-03
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6957539'
+
+        - text: 'SF or Tech Event'
+          icon: *icon_workshop
+          date: 2020-12-03
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6980469'
+
+        - text: 'Any Event'
+          icon: *icon_workshop
+          date: 2020-12-03
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6983290'
 
     - label: 'Fri 12/04 Lecture'
       items:
