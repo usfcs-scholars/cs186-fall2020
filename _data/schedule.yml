@@ -422,13 +422,13 @@ weeks:
 
     - label: 'Fri 09/25 Lecture'
       items:
-        - text: 'Lecture Recording (Panel 1)'
-          link: 'https://usfca.zoom.us/rec/play/ak5cJcusCDOhO_p6bzgNCBJ3SZRHa6ptf_zgJGcAzhMX27gcl18Wp6TAG5N7WAkdUgJtw6IRdVyFo-LM.BpShXmD7LLYlC8_-'
-          icon: *icon_video
-
         - text: 'Panel: Recent Alumni (Part 1)'
           type: 'strong bump'
           icon: *icon_panel
+
+        - text: 'Panel Recording'
+          link: 'https://usfca.zoom.us/rec/play/ak5cJcusCDOhO_p6bzgNCBJ3SZRHa6ptf_zgJGcAzhMX27gcl18Wp6TAG5N7WAkdUgJtw6IRdVyFo-LM.BpShXmD7LLYlC8_-'
+          icon: *icon_video
 
         - text: '<a href="https://www.linkedin.com/in/samuel-escapa/">Samuel Escapa Otani</a>, Software Engineer @ <a href="https://www.zendesk.com/about/">Zendesk</a>, USF BSCS 2020'
           icon: *icon_nothing
@@ -500,6 +500,10 @@ weeks:
           icon: *icon_workshop
           link: 'https://myusf.usfca.edu/caps/services'
           type: 'strong'
+
+        - text: 'Workshop Recording'
+          icon: *icon_video
+          link: 'https://usfca.zoom.us/rec/share/mDyu0cA0tNf19tPDJDi8RxLPtle-OLnspf8PJeNJfTic4-LfRFiEvRy8jWf6r24O.8botai-RZGcUivjE?startTime=1601668097000'
 
         - text: 'Dr. Polina Apilado, <em>Assistant Director for Outreach and Staff Psychologist, CAPS</em>'
           icon: *icon_nothing
