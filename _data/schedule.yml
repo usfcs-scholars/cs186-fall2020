@@ -560,7 +560,11 @@ weeks:
       items:
         - text: 'Alumni Panel'
           icon: *icon_panel
-          type: 'bump strong'
+          type: 'strong'
+
+        - text: 'Panel 1 Recording'
+          link: 'https://usfca.zoom.us/rec/play/FUeekNcrZGzx6z_d2okosSmKeOVi_vtv62Eh6Jbi1Zu5r0DNeaq52KvqBAT4cQbJ78JXID9dwkN1xK0t.h1Lbm6fBQmuP5orS'
+          icon: *icon_video
 
         - text: '<a href="https://www.linkedin.com/in/helenhchen/">Helen Chen</a>, Senior Software Engineer @ <a href="https://www.okta.com/company/careers/">Okta</a>, USF BSCS 2017'
           icon: *icon_nothing
@@ -579,6 +583,10 @@ weeks:
         - text: 'Alumni Panel'
           icon: *icon_panel
           type: 'bump strong'
+
+        - text: 'Panel 2 Recording'
+          link: 'https://usfca.zoom.us/rec/play/EbkIztD0VV4d2vKKt2qNM-XL3m05eVSE0IbCDouwUSNj_4Zpkn2HavOMmBVfWJvav0GaRr98xEULA3c5.XV1iPmyaFa9VoZsi'
+          icon: *icon_video
 
         - text: '<a href="https://www.linkedin.com/in/ganbilegbor/">Ganbileg Bor</a>, Senior Software Engineer @ <a href="https://www.redditinc.com/">Reddit</a>, USF BSCS 2012, MSWS 2013'
           icon: *icon_nothing
