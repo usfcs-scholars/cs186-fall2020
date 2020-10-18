@@ -721,8 +721,10 @@ weeks:
           link: 'break/'
           type: 'bump'
 
-        - text: 'Pending'
+        - text: 'Halloween Social'
           type: 'bump'
+          icon:
+            class: 'fas fa-jack-o-lantern'
 
         - text: 'Withdraw Deadline'
           date: 2020-10-30
@@ -757,8 +759,24 @@ weeks:
           link: 'break/'
           type: 'bump'
 
+        - text: 'Alumni Mentoring Event'
+          type: 'bump has-text-weight-bold'
+          icon: *icon_participation
+
+        - text: '<a href="https://www.linkedin.com/in/tedbisson/">Ted Bisson</a>, Senior Software Engineer @ Google, USF BS in Math/CS 1998'
+          icon: *icon_nothing
+
+        - text: '<a href="https://www.linkedin.com/in/tacastillo/">Tim Castillo</a>, Software Engineer @ Bicycle Health, USF BSCS 2016'
+          icon: *icon_nothing
+
+        - text: '<a href="https://www.linkedin.com/in/fatima-zahra-el-filali-94a01616/">Fatima Zahra El Filali</a>, Software Engineer @ Yelp, USF MSCS 2015'
+          icon: *icon_nothing
+
+        - text: '<a href="https://www.linkedin.com/in/apapko/">Aliaksandr Papko</a>, Lead Software Engineer @ Salesforce, USF BSCS 2012'
+          icon: *icon_nothing
+
         - text: 'Pending'
-          type: 'bump'
+          icon: *icon_nothing
 
     - label: 'Assignments'
       items:
@@ -816,20 +834,50 @@ weeks:
           icon: *icon_nothing
 
         - text: "What's Next"
+          icon: *icon_participation
           bump: true
-          type: 'has-text-grey'
 
         - text: 'Grant Evaluation'
+          icon: *icon_assignment
           bump: true
-          type: 'has-text-grey'
 
         - text: 'Course Evaluation'
-          type: 'has-text-grey'
+          icon: *icon_assignment
 
     - label: 'Assignments'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Grant Evaluation'
+          icon: *icon_assignment
+
+        - text: 'Course Evaluation'
+          icon: *icon_assignment
+
+        - text: 'CS Night (Required)'
+          icon: *icon_date
+          type: 'bump'
+          date: 2020-12-03
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6980470'
+
+        - text: 'University Event'
+          icon: *icon_workshop
+          date: 2020-12-03
+          type: 'bump'
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6980569'
+
+        - text: 'CS Event'
+          icon: *icon_workshop
+          date: 2020-12-03
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6957539'
+
+        - text: 'SF or Tech Event'
+          icon: *icon_workshop
+          date: 2020-12-03
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6980469'
+
+        - text: 'Any Event'
+          icon: *icon_workshop
+          date: 2020-12-03
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/6983290'
 
 - week: 15
   date: 2020-11-22
@@ -885,3 +933,10 @@ weeks:
           icon: *icon_assignment
           link: 'https://usfca.instructure.com/courses/1594618/assignments/6995427'
           date: 2020-12-04
+
+        - text: 'Grant Evaluation'
+          icon: *icon_assignment
+          type: 'bump'
+
+        - text: 'Course Evaluation'
+          icon: *icon_assignment
