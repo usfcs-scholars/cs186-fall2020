@@ -739,6 +739,11 @@ weeks:
           date: 2020-11-05
           link: 'https://usfca.instructure.com/courses/1594618/assignments/7009888'
 
+        - text: 'Mentor Questions'
+          icon: *icon_assignment
+          date: 2020-11-05
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7015828'
+
 - week: 12
   date: 2020-11-01
   columns:
@@ -748,6 +753,11 @@ weeks:
           icon: *icon_assignment
           date: 2020-11-05
           link: 'https://usfca.instructure.com/courses/1594618/assignments/7009888'
+
+        - text: 'Mentor Questions'
+          icon: *icon_assignment
+          date: 2020-11-05
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7015828'
 
     - label: 'Fri 11/06 Lecture'
       items:
