@@ -712,8 +712,13 @@ weeks:
 
     - label: 'Fri 10/30 Lecture'
       items:
+        - text: 'Lecture Recording'
+          icon: *icon_video
+          link: 'https://usfca.zoom.us/rec/share/etUdyPZY3STc6-Ot1sef-3BrjVHy1Bna0NwmEcRdcdiALx5kgDIxrJnulId1tPn-.c3gnk0WmDG24MYY5?startTime=1604087268000'
+
         - text: 'Presentations'
           icon: *icon_presentation
+          type: 'bump'
           link: 'https://usfca.instructure.com/courses/1594618/pages/student-presentations'
 
         - text: 'Interactive Break'
