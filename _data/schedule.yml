@@ -790,24 +790,31 @@ weeks:
         - text: '<a href="https://www.linkedin.com/in/apapko/">Aliaksandr Papko</a>, Lead Software Engineer @ Salesforce, USF BSCS 2012'
           icon: *icon_nothing
 
-        - text: 'Pending'
+        - text: '<a href="https://www.linkedin.com/in/erikadains/">Erika Dains</a>, Software Engineer @ Unity, USF BSCS 2015'
           icon: *icon_nothing
 
     - label: 'Assignments'
       items:
-        - text: ''
-          icon: *icon_nothing
+        - text: 'Mentor Activity Reflection'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7017521'
+          date: 2020-11-14
 
 - week: 13
   date: 2020-11-08
   columns:
     - label: 'Pre-Lecture Deadlines'
       items:
+        - text: 'Mentor Activity Reflection'
+          icon: *icon_assignment
+          link: 'https://usfca.instructure.com/courses/1594618/assignments/7017521'
+          date: 2020-11-14
+
         - text: 'Spring Registration Begins'
           link: 'https://myusf.usfca.edu/registration/fall-registration-calendar'
           icon: *icon_date
           date: 2020-11-09
-          type: 'has-text-grey'
+          type: 'bump'
 
     - label: 'Fri 11/13 Lecture'
       items:
