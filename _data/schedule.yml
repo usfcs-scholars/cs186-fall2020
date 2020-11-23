@@ -768,6 +768,7 @@ weeks:
       items:
         - text: 'CS Advising'
           icon: *icon_workshop
+          link: 'https://docs.google.com/presentation/d/e/2PACX-1vRICWt5mwAIGfOu7pLd4EumtYnRGGy_kEgWTsM9Ww5ws4KdpDEVWMMaHp83iSqSRan5CR8DHESIopTP/pub?start=false&loop=false&delayms=3000'
 
         - text: 'Interactive Break'
           icon:  *icon_break
@@ -818,9 +819,14 @@ weeks:
 
     - label: 'Fri 11/13 Lecture'
       items:
+        - text: 'Lecture Recording'
+          icon: *icon_video
+          link: 'https://usfca.zoom.us/rec/play/eRzMPW8tyhcedzXnssUmQ9vS_zS2yN1XldCPELNOseCyvisVkv1VjmHj6Wx8PY8CqUGLGdzJSh4371BY.ck78DBWCNp8Xjcv_'
+
         - text: 'Presentations'
           icon: *icon_presentation
           link: 'https://usfca.instructure.com/courses/1594618/pages/student-presentations'
+          type: 'bump'
 
         - text: 'Interactive Break'
           icon:  *icon_break
@@ -847,10 +853,15 @@ weeks:
 
     - label: 'Fri 11/20 Lecture'
       items:
+        - text: 'Lecture Recording'
+          icon: *icon_video
+          link: 'https://usfca.zoom.us/rec/play/RHz2OO5s0daRyG1POCz8IVPwTJtBsL5JOJpMhzA8_AG7J8p_WSp1S-oJQzowUGxvVRhdv9LR2rBxhgqv.fx0SYP1g0UFoiMHr'
+
         - text: 'Preparing for Finals'
           icon: *icon_workshop
           type: 'strong'
           link: 'https://myusf.usfca.edu/learning-center'
+          type: 'bump'
 
         - text: '<em>Workshop by <a href="https://myusf.usfca.edu/learning-center">The Learning Center</a></em>'
           icon: *icon_nothing
