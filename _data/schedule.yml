@@ -868,6 +868,7 @@ weeks:
 
         - text: "What's Next"
           icon: *icon_participation
+          link: 'https://docs.google.com/presentation/d/e/2PACX-1vRbmhbI8drdKlKrb49jZtxuqn3yxeC1zDDzphHMZ1Mf0DC_TXw7eCgP0DmdHTPOAwoHO2VpW4OT-97h/pub?start=false&loop=false&delayms=3000'
           bump: true
 
         - text: 'Grant Evaluation'
